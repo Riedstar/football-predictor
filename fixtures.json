@@ -1,0 +1,32 @@
+{
+    "England - Premier League": {
+        "teams": {
+            "Arsenal": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png", "form": "WWWDWW"},
+            "Newcastle United": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png", "form": "DWWWDL"},
+            "Liverpool": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t14.png", "form": "WWWWWW"},
+            "Manchester City": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t43.png", "form": "WDWWLW"},
+            "Chelsea": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t8.png", "form": "WDWLWW"},
+            "Manchester United": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t1.png", "form": "LDWLWW"},
+            "Tottenham Hotspur": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t6.png", "form": "WWLWDW"},
+            "Aston Villa": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png", "form": "WDWWWW"},
+            "Brighton": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png", "form": "WWDWLW"},
+            "Nottingham Forest": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t17.png", "form": "DWLWWL"},
+            "West Ham United": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t21.png", "form": "LLDWWW"},
+            "Crystal Palace": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png", "form": "WDDWLW"},
+            "Brentford": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png", "form": "WLWDLW"},
+            "Fulham": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t54.png", "form": "DDWWDL"},
+            "Everton": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png", "form": "LDWDLL"},
+            "Bournemouth": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t91.png", "form": "WDLLWW"}
+        },
+        "fixtures": [
+            {"home": "Newcastle United", "away": "Arsenal", "date": "2026-11-21", "time": "17:30 SAST"},
+            {"home": "Liverpool", "away": "Manchester City", "date": "2026-11-21", "time": "17:00 SAST"},
+            {"home": "Chelsea", "away": "Manchester United", "date": "2026-11-21", "time": "17:00 SAST"},
+            {"home": "Tottenham Hotspur", "away": "Aston Villa", "date": "2026-11-21", "time": "17:00 SAST"},
+            {"home": "Brighton", "away": "Nottingham Forest", "date": "2026-11-21", "time": "17:00 SAST"},
+            {"home": "West Ham United", "away": "Crystal Palace", "date": "2026-11-21", "time": "19:30 SAST"},
+            {"home": "Brentford", "away": "Fulham", "date": "2026-11-21", "time": "22:00 SAST"},
+            {"home": "Everton", "away": "Bournemouth", "date": "2026-11-22", "time": "16:00 SAST"}
+        ]
+    }
+}
