@@ -1,9 +1,9 @@
 """
 =============================================================================
-Title: Football Match Predictor & Analytics Dashboard (Full Featured)
-Description: A full-stack data science web application featuring enlarged 
-             glass headers, visual form chips, H2H factors, and a CSV 
-             Match Report Export feature.
+Title: Football Match Predictor & Analytics Dashboard (Modern Broadcast UI)
+Description: Full-stack match prediction engine with glassmorphism team cards,
+             3-way visual probability bars, scoreline heatbars, and a live
+             multi-league Accumulator Slip.
 Author: Riedwaan Kops
 =============================================================================
 """
@@ -18,7 +18,7 @@ import streamlit as st
 # 1. PAGE CONFIG & SESSION STATE
 # ==========================================
 st.set_page_config(
-    page_title="Football Match Predictor",
+    page_title="PitchPulse • Football Match Predictor",
     page_icon="⚽",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -31,44 +31,123 @@ if "last_prediction" not in st.session_state:
   st.session_state.last_prediction = None
 
 # ==========================================
-# 2. CUSTOM UI STYLING
+# 2. MODERN BROADCAST & GLASSMORPHISM CSS
 # ==========================================
 st.markdown(
     """
     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@600;800&display=swap');
+
+    html, body, [class*="css"] {
+        font-family: 'Inter', sans-serif;
+    }
+
     .stApp {
-        background: linear-gradient(135deg, #0b1120 0%, #0f172a 100%);
+        background: radial-gradient(circle at 15% 15%, #111c33 0%, #090e1a 55%, #060911 100%);
         color: #f8fafc;
     }
-    .team-card {
-        background: rgba(30, 41, 59, 0.75);
-        border: 1px solid rgba(59, 130, 246, 0.25);
-        border-radius: 16px;
-        padding: 22px;
-        text-align: center;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+    /* Hero Banner */
+    .hero-header {
+        background: linear-gradient(135deg, rgba(30, 58, 138, 0.35) 0%, rgba(15, 23, 42, 0.7) 100%);
+        border: 1px solid rgba(59, 130, 246, 0.3);
+        border-radius: 18px;
+        padding: 20px 26px;
+        margin-bottom: 20px;
+        backdrop-filter: blur(12px);
     }
+
+    /* Kickoff Pill */
+    .kickoff-banner {
+        background: rgba(15, 23, 42, 0.75);
+        border: 1px solid rgba(96, 165, 250, 0.3);
+        border-radius: 999px;
+        padding: 10px 20px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 13px;
+        color: #93c5fd;
+        margin: 10px 0 22px 0;
+        letter-spacing: 0.3px;
+    }
+
+    /* Glass Team Card */
+    .team-card {
+        background: linear-gradient(160deg, rgba(30, 41, 59, 0.78) 0%, rgba(15, 23, 42, 0.9) 100%);
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 20px;
+        padding: 24px 18px;
+        text-align: center;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+        transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .team-card:hover {
+        transform: translateY(-3px);
+        border-color: rgba(59, 130, 246, 0.45);
+    }
+
+    .crest-glow {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(59, 130, 246, 0.18) 0%, rgba(15, 23, 42, 0) 72%);
+        margin-bottom: 6px;
+    }
+
+    .vs-badge {
+        width: 52px;
+        height: 52px;
+        margin: 115px auto 0 auto;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+        border: 2px solid rgba(147, 197, 253, 0.45);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 16px;
+        color: #ffffff;
+        box-shadow: 0 0 24px rgba(37, 99, 235, 0.45);
+    }
+
+    .mono-stat {
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Form Badges */
     .form-badge {
         display: inline-block;
-        padding: 4px 9px;
+        padding: 4px 8px;
         margin: 2px;
         border-radius: 6px;
         font-weight: 800;
-        font-size: 12px;
+        font-size: 11px;
         color: #ffffff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
     }
-    .form-W { background-color: #10b981; }
-    .form-D { background-color: #f59e0b; }
-    .form-L { background-color: #ef4444; }
-    .kickoff-banner {
-        background: rgba(30, 58, 138, 0.45);
-        border: 1px solid rgba(59, 130, 246, 0.4);
-        border-radius: 10px;
-        padding: 12px 18px;
-        text-align: center;
-        font-weight: 600;
-        color: #bfdbfe;
-        margin: 14px 0 22px 0;
+    .form-W { background: linear-gradient(135deg, #10b981, #059669); }
+    .form-D { background: linear-gradient(135deg, #f59e0b, #d97706); }
+    .form-L { background: linear-gradient(135deg, #ef4444, #dc2626); }
+
+    /* Probability Bar Container */
+    .prob-card {
+        background: rgba(15, 23, 42, 0.8);
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 16px;
+        padding: 20px;
+        margin-bottom: 18px;
+    }
+    .prob-bar-track {
+        display: flex;
+        width: 100%;
+        height: 16px;
+        border-radius: 999px;
+        overflow: hidden;
+        background: #1e293b;
+        margin: 12px 0;
     }
     </style>
     """,
@@ -164,11 +243,11 @@ def predict_match(home_xg: float, away_xg: float, max_goals: int = 7) -> dict:
   }
 
 
-def render_team_card(team_name: str, t_data: dict) -> str:
+def render_team_card(team_name: str, t_data: dict, side_label: str) -> str:
   logo_html = (
-      f'<img src="{t_data["logo"]}" width="84" style="margin-bottom:8px;">'
+      f'<div class="crest-glow"><img src="{t_data["logo"]}" width="78"></div>'
       if t_data.get("logo")
-      else "🛡️"
+      else '<div class="crest-glow" style="font-size:42px;">🛡️</div>'
   )
   pos = t_data.get("position", "-")
   rec = t_data.get("record", "-")
@@ -177,23 +256,26 @@ def render_team_card(team_name: str, t_data: dict) -> str:
 
   return f"""
     <div class="team-card">
+        <div style="font-size:11px; text-transform:uppercase; letter-spacing:1.2px; color:#60a5fa; font-weight:700; margin-bottom:6px;">
+            {side_label}
+        </div>
         {logo_html}
-        <h2 style="margin:6px 0 14px 0;">{team_name}</h2>
+        <h2 style="margin:4px 0 14px 0; font-weight:800; letter-spacing:-0.4px;">{team_name}</h2>
         <div style="display:flex; justify-content:space-around; align-items:center;
-                    border-top:1px solid rgba(148,163,184,0.2); padding-top:14px;">
+                    border-top:1px solid rgba(148,163,184,0.16); padding-top:14px;">
             <div style="flex:0.8;">
-                <div style="font-size:18px; font-weight:800; color:#ffffff;">{pos}</div>
-                <div style="font-size:12px; color:#94a3b8; margin-top:2px;">League Position</div>
+                <div class="mono-stat" style="font-size:18px; font-weight:800; color:#ffffff;">#{pos}</div>
+                <div style="font-size:11px; color:#94a3b8; margin-top:2px;">League Pos</div>
             </div>
-            <div style="width:1px; height:36px; background:rgba(148,163,184,0.25);"></div>
+            <div style="width:1px; height:34px; background:rgba(148,163,184,0.2);"></div>
             <div style="flex:1.1;">
-                <div style="font-size:16px; font-weight:800; color:#ffffff;">{rec}</div>
-                <div style="font-size:12px; color:#94a3b8; margin-top:2px;">League Results</div>
+                <div class="mono-stat" style="font-size:15px; font-weight:800; color:#e2e8f0;">{rec}</div>
+                <div style="font-size:11px; color:#94a3b8; margin-top:2px;">Season Record</div>
             </div>
-            <div style="width:1px; height:36px; background:rgba(148,163,184,0.25);"></div>
+            <div style="width:1px; height:34px; background:rgba(148,163,184,0.2);"></div>
             <div style="flex:1.5;">
                 <div>{badges}</div>
-                <div style="font-size:12px; color:#94a3b8; margin-top:4px;">Last 5 (Oldest → Latest)</div>
+                <div style="font-size:11px; color:#94a3b8; margin-top:4px;">Last 5 (Oldest → Latest)</div>
             </div>
         </div>
     </div>
@@ -203,11 +285,19 @@ def render_team_card(team_name: str, t_data: dict) -> str:
 # ==========================================
 # 5. MAIN DASHBOARD HEADER & SELECTORS
 # ==========================================
-st.title("⚽ Football Match Predictor")
 st.markdown(
-    "Select a competition below to automatically load scheduled fixtures, view"
-    " automated historical form-based Expected Goals ($xG$), and build an"
-    " **Accumulator Slip**."
+    """
+    <div class="hero-header">
+        <div style="font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#60a5fa;">
+            Live Poisson Analytics Engine
+        </div>
+        <h1 style="margin:4px 0 6px 0; font-size:32px; font-weight:800;">⚽ Football Match Predictor</h1>
+        <p style="margin:0; color:#cbd5e1; font-size:14px;">
+            Automated daily fixtures, live standings &amp; form-calibrated Expected Goals (xG) with multi-league Accumulator Builder.
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
 
 if not LEAGUE_DATABASE:
@@ -217,7 +307,7 @@ if not LEAGUE_DATABASE:
 col_sel1, col_sel2 = st.columns(2)
 with col_sel1:
   selected_league = st.selectbox(
-      "Select Competition / Tournament", list(LEAGUE_DATABASE.keys())
+      "🏆 Competition / Tournament", list(LEAGUE_DATABASE.keys())
   )
 
 league_data = LEAGUE_DATABASE[selected_league]
@@ -225,13 +315,13 @@ teams_info = league_data.get("teams", {})
 fixtures_list = league_data.get("fixtures", [])
 
 fixture_labels = [
-    f"{fx['home']} vs {fx['away']} ({fx['date']} @ {convert_to_sast(fx['time'])})"
+    f"{fx['home']} vs {fx['away']} ({fx['date']} • {convert_to_sast(fx['time'])})"
     for fx in fixtures_list
 ]
 
 with col_sel2:
   selected_idx = st.selectbox(
-      "Select Match Fixture",
+      "📅 Scheduled Match Fixture",
       range(len(fixture_labels)),
       format_func=lambda i: fixture_labels[i],
   )
@@ -248,7 +338,9 @@ away_data = teams_info.get(away_team, {"logo": "", "last_5": "WDWLL"})
 st.markdown(
     f"""
     <div class="kickoff-banner">
-        📅 Kick-off Scheduled: {match_date} at {match_time} &nbsp;|&nbsp; 🏆 Competition: {selected_league}
+        🕒 KICK-OFF: <span class="mono-stat" style="color:#ffffff;">{match_date} @ {match_time}</span>
+        &nbsp;&nbsp;•&nbsp;&nbsp;
+        🏟️ <span style="color:#ffffff;">{selected_league}</span>
     </div>
     """,
     unsafe_allow_html=True,
@@ -260,7 +352,7 @@ st.markdown(
 col_home, col_vs, col_away = st.columns([5, 1, 5])
 
 with col_home:
-  st.markdown(render_team_card(home_team, home_data), unsafe_allow_html=True)
+  st.markdown(render_team_card(home_team, home_data, "🏠 Home Side"), unsafe_allow_html=True)
   default_home_xg = calculate_season_xg(home_data, away_data, is_home=True)
   home_xg = st.slider(
       f"{home_team} Expected Goals (xG)",
@@ -272,13 +364,10 @@ with col_home:
   )
 
 with col_vs:
-  st.markdown(
-      "<h2 style='text-align:center; padding-top:125px; color:#3b82f6;'>VS</h2>",
-      unsafe_allow_html=True,
-  )
+  st.markdown('<div class="vs-badge">VS</div>', unsafe_allow_html=True)
 
 with col_away:
-  st.markdown(render_team_card(away_team, away_data), unsafe_allow_html=True)
+  st.markdown(render_team_card(away_team, away_data, "✈️ Away Side"), unsafe_allow_html=True)
   default_away_xg = calculate_season_xg(away_data, home_data, is_home=False)
   away_xg = st.slider(
       f"{away_team} Expected Goals (xG)",
@@ -290,7 +379,7 @@ with col_away:
   )
 
 # ==========================================
-# 7. RUN PREDICTION & PERSIST IN SESSION STATE
+# 7. RUN PREDICTION & VISUAL PROBABILITY BAR
 # ==========================================
 st.markdown("<br>", unsafe_allow_html=True)
 if st.button("🚀 Run Match Prediction", type="primary", use_container_width=True):
@@ -314,14 +403,31 @@ if (
     and saved["away_team"] == away_team
 ):
   res = saved["result"]
+  hw = res["home_win_prob"]
+  dr = res["draw_prob"]
+  aw = res["away_win_prob"]
 
   st.markdown("---")
-  st.subheader(f"📊 Match Outcome Probabilities ({home_team} vs {away_team})")
-
-  m1, m2, m3 = st.columns(3)
-  m1.metric(f"🏠 {home_team} Win", f"{res['home_win_prob']}%")
-  m2.metric("🤝 Draw", f"{res['draw_prob']}%")
-  m3.metric(f"✈️ {away_team} Win", f"{res['away_win_prob']}%")
+  st.markdown(
+      f"""
+      <div class="prob-card">
+          <div style="font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:#93c5fd;">
+              📊 1X2 Win Probability Distribution
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-top:12px; font-weight:800; font-size:15px;">
+              <span style="color:#10b981;">🏠 {home_team}: <span class="mono-stat">{hw}%</span></span>
+              <span style="color:#f59e0b;">🤝 Draw: <span class="mono-stat">{dr}%</span></span>
+              <span style="color:#38bdf8;">✈️ {away_team}: <span class="mono-stat">{aw}%</span></span>
+          </div>
+          <div class="prob-bar-track">
+              <div style="width:{hw}%; background:linear-gradient(90deg, #10b981, #059669);"></div>
+              <div style="width:{dr}%; background:linear-gradient(90deg, #f59e0b, #d97706);"></div>
+              <div style="width:{aw}%; background:linear-gradient(90deg, #0284c7, #38bdf8);"></div>
+          </div>
+      </div>
+      """,
+      unsafe_allow_html=True,
+  )
 
   g1, g2, g3 = st.columns(3)
   g1.metric("🔥 Over 2.5 Goals", f"{res['over_2_5_prob']}%")
@@ -329,8 +435,24 @@ if (
   g3.metric("⚽ Both Teams to Score (Yes)", f"{res['btts_yes_prob']}%")
 
   st.markdown("#### 🎯 Most Likely Exact Scorelines")
-  score_df = pd.DataFrame(res["top_scores"], columns=["Scoreline", "Probability (%)"])
-  st.dataframe(score_df, use_container_width=True, hide_index=True)
+  max_score_prob = max((p for _, p in res["top_scores"]), default=1.0)
+  for score_str, prob_val in res["top_scores"]:
+    bar_width = min(100, round((prob_val / max_score_prob) * 100, 1))
+    st.markdown(
+        f"""
+        <div style="background:rgba(30,41,59,0.65); border:1px solid rgba(148,163,184,0.15);
+                    border-radius:10px; padding:10px 14px; margin-bottom:8px;">
+            <div style="display:flex; justify-content:space-between; font-weight:700; font-size:14px; margin-bottom:5px;">
+                <span class="mono-stat" style="color:#ffffff;">{score_str}</span>
+                <span class="mono-stat" style="color:#60a5fa;">{prob_val}%</span>
+            </div>
+            <div style="width:100%; height:7px; background:#0f172a; border-radius:999px; overflow:hidden;">
+                <div style="width:{bar_width}%; height:100%; background:linear-gradient(90deg, #2563eb, #38bdf8);"></div>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
   # ==========================================
   # 8. ADD SELECTION TO ACCUMULATOR SLIP
@@ -389,12 +511,14 @@ with st.sidebar:
       combined_prob *= leg["Probability (%)"] / 100.0
       st.markdown(
           f"""
-          <div style="background: rgba(30, 41, 59, 0.85); border: 1px solid rgba(59, 130, 246, 0.35);
+          <div style="background: linear-gradient(145deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.95));
+                      border-left: 4px solid #10b981; border-top: 1px solid rgba(148,163,184,0.18);
+                      border-right: 1px solid rgba(148,163,184,0.18); border-bottom: 1px solid rgba(148,163,184,0.18);
                       border-radius: 12px; padding: 12px; margin-bottom: 10px;">
               <div style="font-size: 11px; color: #93c5fd;">{leg['Competition']} • {leg['Kick-off']}</div>
-              <div style="font-weight: 700; color: #ffffff; font-size: 14px; margin: 2px 0;">{leg['Fixture']}</div>
-              <div style="color: #10b981; font-weight: 800; font-size: 13px;">
-                  {leg['Selection']} ({leg['Probability (%)']}% • {leg['Fair Odds']}x)
+              <div style="font-weight: 700; color: #ffffff; font-size: 14px; margin: 3px 0;">{leg['Fixture']}</div>
+              <div class="mono-stat" style="color: #10b981; font-weight: 800; font-size: 13px;">
+                  {leg['Selection']} • {leg['Probability (%)']}% ({leg['Fair Odds']}x)
               </div>
           </div>
           """,
@@ -436,5 +560,5 @@ with st.sidebar:
 # ==========================================
 st.markdown("---")
 st.caption(
-    "Powered by Python • Streamlit • SciPy Poisson Distribution • Automated GitHub Actions Live Fixture Pipeline"
+    "PitchPulse Analytics • Powered by Python, Streamlit, SciPy Poisson Model & Automated GitHub Actions Pipeline"
 )
