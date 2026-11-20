@@ -1,32 +1,2852 @@
 {
     "England - Premier League": {
         "teams": {
-            "Arsenal": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png", "form": "WWWDWW"},
-            "Newcastle United": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png", "form": "DWWWDL"},
-            "Liverpool": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t14.png", "form": "WWWWWW"},
-            "Manchester City": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t43.png", "form": "WDWWLW"},
-            "Chelsea": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t8.png", "form": "WDWLWW"},
-            "Manchester United": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t1.png", "form": "LDWLWW"},
-            "Tottenham Hotspur": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t6.png", "form": "WWLWDW"},
-            "Aston Villa": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png", "form": "WDWWWW"},
-            "Brighton": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png", "form": "WWDWLW"},
-            "Nottingham Forest": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t17.png", "form": "DWLWWL"},
-            "West Ham United": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t21.png", "form": "LLDWWW"},
-            "Crystal Palace": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png", "form": "WDDWLW"},
-            "Brentford": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png", "form": "WLWDLW"},
-            "Fulham": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t54.png", "form": "DDWWDL"},
-            "Everton": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png", "form": "LDWDLL"},
-            "Bournemouth": {"logo": "https://resources.premierleague.com/premierleague/badges/70/t91.png", "form": "WDLLWW"}
+            "Manchester City": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+                "position": "3",
+                "record": "7W 0D 3L",
+                "last_5": "DWLWL",
+                "full_form": "DWLWL",
+                "avg_gf": 2.1,
+                "avg_ga": 1.3
+            },
+            "Fulham": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+                "position": "15",
+                "record": "2W 4D 4L",
+                "last_5": "DDLWW",
+                "full_form": "DDLWW",
+                "avg_gf": 1.0,
+                "avg_ga": 1.2
+            },
+            "AFC Bournemouth": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+                "position": "7",
+                "record": "4W 3D 3L",
+                "last_5": "DWWWW",
+                "full_form": "DWWWW",
+                "avg_gf": 1.6,
+                "avg_ga": 1.4
+            },
+            "Nottingham Forest": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+                "position": "16",
+                "record": "2W 3D 5L",
+                "last_5": "DLDLL",
+                "full_form": "DLDLL",
+                "avg_gf": 0.9,
+                "avg_ga": 1.3
+            },
+            "Aston Villa": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+                "position": "10",
+                "record": "3W 4D 3L",
+                "last_5": "DLDLW",
+                "full_form": "DLDLW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.7
+            },
+            "Sunderland": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+                "position": "19",
+                "record": "2W 2D 6L",
+                "last_5": "WLLWD",
+                "full_form": "WLLWD",
+                "avg_gf": 0.8,
+                "avg_ga": 1.7
+            },
+            "Chelsea": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+                "position": "5",
+                "record": "5W 1D 4L",
+                "last_5": "LWLLW",
+                "full_form": "LWLLW",
+                "avg_gf": 1.9,
+                "avg_ga": 1.6
+            },
+            "Leeds United": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+                "position": "9",
+                "record": "3W 5D 2L",
+                "last_5": "WLDDL",
+                "full_form": "WLDDL",
+                "avg_gf": 1.0,
+                "avg_ga": 0.8
+            },
+            "Coventry City": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+                "position": "17",
+                "record": "3W 0D 7L",
+                "last_5": "DWLLW",
+                "full_form": "DWLLW",
+                "avg_gf": 1.0,
+                "avg_ga": 1.9
+            },
+            "Crystal Palace": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+                "position": "20",
+                "record": "2W 1D 7L",
+                "last_5": "DDLWL",
+                "full_form": "DDLWL",
+                "avg_gf": 1.0,
+                "avg_ga": 2.4
+            },
+            "Tottenham Hotspur": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+                "position": "11",
+                "record": "3W 3D 4L",
+                "last_5": "LWWWD",
+                "full_form": "LWWWD",
+                "avg_gf": 1.0,
+                "avg_ga": 1.1
+            },
+            "Ipswich Town": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+                "position": "14",
+                "record": "3W 2D 5L",
+                "last_5": "DDDLW",
+                "full_form": "DDDLW",
+                "avg_gf": 1.5,
+                "avg_ga": 2.0
+            },
+            "Newcastle United": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+                "position": "12",
+                "record": "3W 3D 4L",
+                "last_5": "DLLWL",
+                "full_form": "DLLWL",
+                "avg_gf": 1.3,
+                "avg_ga": 1.6
+            },
+            "Arsenal": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                "position": "1",
+                "record": "9W 0D 1L",
+                "last_5": "WWWLW",
+                "full_form": "WWWLW",
+                "avg_gf": 1.5,
+                "avg_ga": 0.5
+            }
         },
         "fixtures": [
-            {"home": "Newcastle United", "away": "Arsenal", "date": "2026-11-21", "time": "17:30 SAST"},
-            {"home": "Liverpool", "away": "Manchester City", "date": "2026-11-21", "time": "17:00 SAST"},
-            {"home": "Chelsea", "away": "Manchester United", "date": "2026-11-21", "time": "17:00 SAST"},
-            {"home": "Tottenham Hotspur", "away": "Aston Villa", "date": "2026-11-21", "time": "17:00 SAST"},
-            {"home": "Brighton", "away": "Nottingham Forest", "date": "2026-11-21", "time": "17:00 SAST"},
-            {"home": "West Ham United", "away": "Crystal Palace", "date": "2026-11-21", "time": "19:30 SAST"},
-            {"home": "Brentford", "away": "Fulham", "date": "2026-11-21", "time": "22:00 SAST"},
-            {"home": "Everton", "away": "Bournemouth", "date": "2026-11-22", "time": "16:00 SAST"}
+            {
+                "home": "Manchester City",
+                "away": "Fulham",
+                "date": "2026-11-21",
+                "time": "12:30"
+            },
+            {
+                "home": "AFC Bournemouth",
+                "away": "Nottingham Forest",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Aston Villa",
+                "away": "Sunderland",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Chelsea",
+                "away": "Leeds United",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Coventry City",
+                "away": "Crystal Palace",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Tottenham Hotspur",
+                "away": "Ipswich Town",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Newcastle United",
+                "away": "Arsenal",
+                "date": "2026-11-21",
+                "time": "17:30"
+            }
+        ]
+    },
+    "England - EFL Championship": {
+        "teams": {
+            "Millwall": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
+                "position": "16",
+                "record": "5W 3D 7L",
+                "last_5": "DLWLD",
+                "full_form": "DLWLD",
+                "avg_gf": 1.53,
+                "avg_ga": 1.8
+            },
+            "Queens Park Rangers": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/334.png",
+                "position": "8",
+                "record": "6W 6D 3L",
+                "last_5": "WDLWL",
+                "full_form": "WDLWL",
+                "avg_gf": 1.6,
+                "avg_ga": 1.2
+            },
+            "Norwich City": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
+                "position": "12",
+                "record": "7W 0D 8L",
+                "last_5": "WWWWL",
+                "full_form": "WWWWL",
+                "avg_gf": 2.13,
+                "avg_ga": 1.6
+            },
+            "Cardiff City": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
+                "position": "14",
+                "record": "4W 6D 5L",
+                "last_5": "WDLWD",
+                "full_form": "WDLWD",
+                "avg_gf": 1.8,
+                "avg_ga": 1.8
+            },
+            "Southampton": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
+                "position": "7",
+                "record": "8W 4D 3L",
+                "last_5": "DDWWD",
+                "full_form": "DDWWD",
+                "avg_gf": 1.93,
+                "avg_ga": 1.0
+            },
+            "Derby County": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png",
+                "position": "23",
+                "record": "2W 4D 9L",
+                "last_5": "WLLDL",
+                "full_form": "WLLDL",
+                "avg_gf": 0.93,
+                "avg_ga": 2.0
+            },
+            "Bolton Wanderers": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
+                "position": "18",
+                "record": "5W 2D 8L",
+                "last_5": "LWLLD",
+                "full_form": "LWLLD",
+                "avg_gf": 1.33,
+                "avg_ga": 1.93
+            },
+            "Portsmouth": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/385.png",
+                "position": "11",
+                "record": "6W 4D 5L",
+                "last_5": "LWDWD",
+                "full_form": "LWDWD",
+                "avg_gf": 1.33,
+                "avg_ga": 1.2
+            },
+            "Lincoln City": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/314.png",
+                "position": "21",
+                "record": "4W 3D 8L",
+                "last_5": "LLLWD",
+                "full_form": "LLLWD",
+                "avg_gf": 1.0,
+                "avg_ga": 1.73
+            },
+            "Wrexham": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png",
+                "position": "15",
+                "record": "4W 6D 5L",
+                "last_5": "DWLLW",
+                "full_form": "DWLLW",
+                "avg_gf": 1.2,
+                "avg_ga": 1.33
+            },
+            "Middlesbrough": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
+                "position": "2",
+                "record": "8W 5D 2L",
+                "last_5": "DLWWD",
+                "full_form": "DLWWD",
+                "avg_gf": 2.0,
+                "avg_ga": 1.27
+            },
+            "Bristol City": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
+                "position": "17",
+                "record": "5W 3D 7L",
+                "last_5": "LLWDL",
+                "full_form": "LLWDL",
+                "avg_gf": 1.07,
+                "avg_ga": 1.6
+            },
+            "Sheffield United": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png",
+                "position": "10",
+                "record": "6W 4D 5L",
+                "last_5": "DWWDW",
+                "full_form": "DWWDW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.27
+            },
+            "Watford": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
+                "position": "20",
+                "record": "4W 3D 8L",
+                "last_5": "DWLLW",
+                "full_form": "DWLLW",
+                "avg_gf": 0.87,
+                "avg_ga": 1.53
+            },
+            "Stoke City": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
+                "position": "3",
+                "record": "9W 2D 4L",
+                "last_5": "WWWDW",
+                "full_form": "WWWDW",
+                "avg_gf": 1.6,
+                "avg_ga": 1.2
+            },
+            "Birmingham City": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
+                "position": "1",
+                "record": "8W 5D 2L",
+                "last_5": "WWWLW",
+                "full_form": "WWWLW",
+                "avg_gf": 1.87,
+                "avg_ga": 0.93
+            },
+            "Swansea City": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png",
+                "position": "6",
+                "record": "8W 2D 5L",
+                "last_5": "LLWLL",
+                "full_form": "LLWLL",
+                "avg_gf": 1.47,
+                "avg_ga": 1.2
+            },
+            "West Bromwich Albion": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
+                "position": "5",
+                "record": "8W 4D 3L",
+                "last_5": "DDWDW",
+                "full_form": "DDWDW",
+                "avg_gf": 1.53,
+                "avg_ga": 1.0
+            },
+            "West Ham United": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
+                "position": "9",
+                "record": "6W 5D 4L",
+                "last_5": "LDLLW",
+                "full_form": "LDLLW",
+                "avg_gf": 2.47,
+                "avg_ga": 1.53
+            },
+            "Preston North End": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png",
+                "position": "24",
+                "record": "2W 2D 11L",
+                "last_5": "DLLDL",
+                "full_form": "DLLDL",
+                "avg_gf": 0.87,
+                "avg_ga": 2.0
+            },
+            "Wolverhampton Wanderers": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+                "position": "4",
+                "record": "8W 4D 3L",
+                "last_5": "DWWWD",
+                "full_form": "DWWWD",
+                "avg_gf": 1.73,
+                "avg_ga": 1.2
+            },
+            "Charlton Athletic": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png",
+                "position": "19",
+                "record": "4W 5D 6L",
+                "last_5": "DLLLL",
+                "full_form": "DLLLL",
+                "avg_gf": 0.87,
+                "avg_ga": 1.53
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Millwall",
+                "away": "Queens Park Rangers",
+                "date": "2026-11-21",
+                "time": "12:30"
+            },
+            {
+                "home": "Norwich City",
+                "away": "Cardiff City",
+                "date": "2026-11-21",
+                "time": "12:30"
+            },
+            {
+                "home": "Southampton",
+                "away": "Derby County",
+                "date": "2026-11-21",
+                "time": "12:30"
+            },
+            {
+                "home": "Bolton Wanderers",
+                "away": "Portsmouth",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Lincoln City",
+                "away": "Wrexham",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Middlesbrough",
+                "away": "Bristol City",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Sheffield United",
+                "away": "Watford",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Stoke City",
+                "away": "Birmingham City",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Swansea City",
+                "away": "West Bromwich Albion",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "West Ham United",
+                "away": "Preston North End",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Wolverhampton Wanderers",
+                "away": "Charlton Athletic",
+                "date": "2026-11-21",
+                "time": "15:00"
+            }
+        ]
+    },
+    "England - FA Cup": {
+        "teams": {
+            "Plymouth Parkway": {
+                "logo": "",
+                "position": "-",
+                "record": "5W 0D 0L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Berkhamsted": {
+                "logo": "",
+                "position": "-",
+                "record": "4W 0D 1L",
+                "last_5": "LWWWW",
+                "full_form": "LWWWW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Plymouth Parkway",
+                "away": "Berkhamsted",
+                "date": "2026-11-09",
+                "time": "19:30"
+            }
+        ]
+    },
+    "Spain - La Liga": {
+        "teams": {
+            "Athletic Club": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+                "position": "7",
+                "record": "4W 4D 3L",
+                "last_5": "DWWWL",
+                "full_form": "DWWWL",
+                "avg_gf": 1.36,
+                "avg_ga": 1.0
+            },
+            "Espanyol": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+                "position": "13",
+                "record": "3W 3D 6L",
+                "last_5": "DWLLL",
+                "full_form": "DWLLL",
+                "avg_gf": 1.08,
+                "avg_ga": 1.17
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Athletic Club",
+                "away": "Espanyol",
+                "date": "2026-11-20",
+                "time": "20:00"
+            }
+        ]
+    },
+    "Germany - Bundesliga": {
+        "teams": {
+            "Bayern Munich": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+                "position": "1",
+                "record": "6W 3D 0L",
+                "last_5": "WWDWW",
+                "full_form": "WWDWW",
+                "avg_gf": 3.22,
+                "avg_ga": 1.0
+            },
+            "FC Cologne": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+                "position": "15",
+                "record": "2W 3D 4L",
+                "last_5": "LDWDL",
+                "full_form": "LDWDL",
+                "avg_gf": 1.11,
+                "avg_ga": 1.56
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Bayern Munich",
+                "away": "FC Cologne",
+                "date": "2026-11-20",
+                "time": "19:30"
+            }
+        ]
+    },
+    "Italy - Serie A": {
+        "teams": {
+            "Como": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+                "position": "5",
+                "record": "7W 2D 2L",
+                "last_5": "LWWWW",
+                "full_form": "LWWWW",
+                "avg_gf": 1.64,
+                "avg_ga": 0.91
+            },
+            "Cagliari": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+                "position": "9",
+                "record": "5W 1D 5L",
+                "last_5": "WLLLL",
+                "full_form": "WLLLL",
+                "avg_gf": 0.91,
+                "avg_ga": 1.36
+            },
+            "Lazio": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+                "position": "1",
+                "record": "9W 2D 0L",
+                "last_5": "DWWWW",
+                "full_form": "DWWWW",
+                "avg_gf": 2.27,
+                "avg_ga": 0.82
+            },
+            "Lecce": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+                "position": "14",
+                "record": "3W 1D 7L",
+                "last_5": "DLLLW",
+                "full_form": "DLLLW",
+                "avg_gf": 1.09,
+                "avg_ga": 2.0
+            },
+            "Parma": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+                "position": "16",
+                "record": "2W 2D 7L",
+                "last_5": "LWDLL",
+                "full_form": "LWDLL",
+                "avg_gf": 0.82,
+                "avg_ga": 1.55
+            },
+            "AS Roma": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+                "position": "3",
+                "record": "8W 3D 0L",
+                "last_5": "WLWWD",
+                "full_form": "WLWWD",
+                "avg_gf": 2.82,
+                "avg_ga": 0.91
+            },
+            "Napoli": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+                "position": "10",
+                "record": "4W 3D 4L",
+                "last_5": "DLLWD",
+                "full_form": "DLLWD",
+                "avg_gf": 1.64,
+                "avg_ga": 1.27
+            },
+            "Torino": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+                "position": "11",
+                "record": "4W 2D 5L",
+                "last_5": "DLLWW",
+                "full_form": "DLLWW",
+                "avg_gf": 1.36,
+                "avg_ga": 1.55
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Como",
+                "away": "Cagliari",
+                "date": "2026-11-21",
+                "time": "14:00"
+            },
+            {
+                "home": "Lazio",
+                "away": "Lecce",
+                "date": "2026-11-21",
+                "time": "14:00"
+            },
+            {
+                "home": "Parma",
+                "away": "AS Roma",
+                "date": "2026-11-21",
+                "time": "17:00"
+            },
+            {
+                "home": "Napoli",
+                "away": "Torino",
+                "date": "2026-11-21",
+                "time": "19:45"
+            }
+        ]
+    },
+    "France - Ligue 1": {
+        "teams": {
+            "Troyes": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+                "position": "17",
+                "record": "2W 2D 6L",
+                "last_5": "DWDLL",
+                "full_form": "DWDLL",
+                "avg_gf": 0.7,
+                "avg_ga": 1.7
+            },
+            "Le Havre AC": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+                "position": "18",
+                "record": "0W 2D 8L",
+                "last_5": "LLLLL",
+                "full_form": "LLLLL",
+                "avg_gf": 0.9,
+                "avg_ga": 2.2
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Troyes",
+                "away": "Le Havre AC",
+                "date": "2026-11-20",
+                "time": "19:45"
+            }
+        ]
+    },
+    "UEFA - Champions League": {
+        "teams": {
+            "Bodo/Glimt": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+                "position": "25",
+                "record": "1W 1D 2L",
+                "last_5": "WDWLL",
+                "full_form": "WDWLL",
+                "avg_gf": 1.0,
+                "avg_ga": 2.25
+            },
+            "LASK Linz": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+                "position": "16",
+                "record": "2W 0D 2L",
+                "last_5": "DWWLW",
+                "full_form": "DWWLW",
+                "avg_gf": 2.5,
+                "avg_ga": 2.25
+            },
+            "Galatasaray": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+                "position": "18",
+                "record": "2W 0D 2L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 2.0,
+                "avg_ga": 2.25
+            },
+            "Aston Villa": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+                "position": "6",
+                "record": "3W 0D 1L",
+                "last_5": "DLDLW",
+                "full_form": "DLDLW",
+                "avg_gf": 3.0,
+                "avg_ga": 1.5
+            },
+            "Arsenal": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                "position": "3",
+                "record": "3W 1D 0L",
+                "last_5": "WWWLW",
+                "full_form": "WWWLW",
+                "avg_gf": 2.0,
+                "avg_ga": 0.75
+            },
+            "Borussia Dortmund": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+                "position": "12",
+                "record": "3W 0D 1L",
+                "last_5": "WWDWW",
+                "full_form": "WWDWW",
+                "avg_gf": 1.75,
+                "avg_ga": 1.25
+            },
+            "Como": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+                "position": "4",
+                "record": "3W 0D 1L",
+                "last_5": "LWWWW",
+                "full_form": "LWWWW",
+                "avg_gf": 4.75,
+                "avg_ga": 1.5
+            },
+            "AEK Athens": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+                "position": "29",
+                "record": "1W 0D 3L",
+                "last_5": "WLLWL",
+                "full_form": "WLLWL",
+                "avg_gf": 1.25,
+                "avg_ga": 2.75
+            },
+            "Feyenoord Rotterdam": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+                "position": "32",
+                "record": "1W 0D 3L",
+                "last_5": "LLDDL",
+                "full_form": "LLDDL",
+                "avg_gf": 1.0,
+                "avg_ga": 2.75
+            },
+            "FC Porto": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+                "position": "26",
+                "record": "1W 0D 3L",
+                "last_5": "WWWWL",
+                "full_form": "WWWWL",
+                "avg_gf": 1.5,
+                "avg_ga": 1.75
+            },
+            "Manchester City": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+                "position": "7",
+                "record": "3W 0D 1L",
+                "last_5": "DWLWL",
+                "full_form": "DWLWL",
+                "avg_gf": 3.0,
+                "avg_ga": 1.75
+            },
+            "Napoli": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+                "position": "27",
+                "record": "1W 0D 3L",
+                "last_5": "DLLWD",
+                "full_form": "DLLWD",
+                "avg_gf": 1.5,
+                "avg_ga": 2.75
+            },
+            "RB Leipzig": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+                "position": "30",
+                "record": "1W 0D 3L",
+                "last_5": "WLWWW",
+                "full_form": "WLWWW",
+                "avg_gf": 1.25,
+                "avg_ga": 2.75
+            },
+            "Lens": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+                "position": "33",
+                "record": "1W 0D 3L",
+                "last_5": "LLLWL",
+                "full_form": "LLLWL",
+                "avg_gf": 1.0,
+                "avg_ga": 4.0
+            },
+            "Real Madrid": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+                "position": "2",
+                "record": "4W 0D 0L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 3.25,
+                "avg_ga": 1.75
+            },
+            "PSV Eindhoven": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+                "position": "24",
+                "record": "1W 1D 2L",
+                "last_5": "WLWDW",
+                "full_form": "WLWDW",
+                "avg_gf": 0.75,
+                "avg_ga": 1.0
+            },
+            "Slovan Bratislava": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
+                "position": "36",
+                "record": "0W 0D 4L",
+                "last_5": "LLLLW",
+                "full_form": "LLLLW",
+                "avg_gf": 0.25,
+                "avg_ga": 4.25
+            },
+            "Real Betis": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+                "position": "11",
+                "record": "3W 0D 1L",
+                "last_5": "DWLWD",
+                "full_form": "DWLWD",
+                "avg_gf": 2.0,
+                "avg_ga": 1.5
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Bodo/Glimt",
+                "away": "LASK Linz",
+                "date": "2026-11-24",
+                "time": "17:45"
+            },
+            {
+                "home": "Galatasaray",
+                "away": "Aston Villa",
+                "date": "2026-11-24",
+                "time": "17:45"
+            },
+            {
+                "home": "Arsenal",
+                "away": "Borussia Dortmund",
+                "date": "2026-11-24",
+                "time": "20:00"
+            },
+            {
+                "home": "Como",
+                "away": "AEK Athens",
+                "date": "2026-11-24",
+                "time": "20:00"
+            },
+            {
+                "home": "Feyenoord Rotterdam",
+                "away": "FC Porto",
+                "date": "2026-11-24",
+                "time": "20:00"
+            },
+            {
+                "home": "Manchester City",
+                "away": "Napoli",
+                "date": "2026-11-24",
+                "time": "20:00"
+            },
+            {
+                "home": "RB Leipzig",
+                "away": "Lens",
+                "date": "2026-11-24",
+                "time": "20:00"
+            },
+            {
+                "home": "Real Madrid",
+                "away": "PSV Eindhoven",
+                "date": "2026-11-24",
+                "time": "20:00"
+            },
+            {
+                "home": "Slovan Bratislava",
+                "away": "Real Betis",
+                "date": "2026-11-24",
+                "time": "20:00"
+            }
+        ]
+    },
+    "UEFA - Europa League": {
+        "teams": {
+            "Besiktas": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+                "position": "8",
+                "record": "2W 1D 1L",
+                "last_5": "WLDWD",
+                "full_form": "WLDWD",
+                "avg_gf": 2.75,
+                "avg_ga": 2.0
+            },
+            "Hapoel Be'er": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
+                "position": "33",
+                "record": "0W 1D 3L",
+                "last_5": "DLLDL",
+                "full_form": "DLLDL",
+                "avg_gf": 0.25,
+                "avg_ga": 2.0
+            },
+            "Celta Vigo": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+                "position": "27",
+                "record": "1W 0D 3L",
+                "last_5": "WDLLD",
+                "full_form": "WDLLD",
+                "avg_gf": 1.0,
+                "avg_ga": 1.5
+            },
+            "AFC Bournemouth": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+                "position": "2",
+                "record": "4W 0D 0L",
+                "last_5": "DWWWW",
+                "full_form": "DWWWW",
+                "avg_gf": 2.75,
+                "avg_ga": 0.5
+            },
+            "Dinamo Zagreb": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+                "position": "9",
+                "record": "2W 1D 1L",
+                "last_5": "WLWDL",
+                "full_form": "WLWDL",
+                "avg_gf": 1.25,
+                "avg_ga": 1.0
+            },
+            "Bayer Leverkusen": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+                "position": "7",
+                "record": "3W 0D 1L",
+                "last_5": "WLLWL",
+                "full_form": "WLLWL",
+                "avg_gf": 2.0,
+                "avg_ga": 0.25
+            },
+            "Marseille": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+                "position": "31",
+                "record": "1W 0D 3L",
+                "last_5": "WWWWL",
+                "full_form": "WWWWL",
+                "avg_gf": 0.5,
+                "avg_ga": 1.5
+            },
+            "Levski Sofia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
+                "position": "10",
+                "record": "2W 1D 1L",
+                "last_5": "WWDLL",
+                "full_form": "WWDLL",
+                "avg_gf": 1.0,
+                "avg_ga": 0.75
+            },
+            "Olympiacos": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+                "position": "6",
+                "record": "3W 1D 0L",
+                "last_5": "DDWWW",
+                "full_form": "DDWWW",
+                "avg_gf": 1.0,
+                "avg_ga": 0.25
+            },
+            "AC Milan": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+                "position": "28",
+                "record": "1W 0D 3L",
+                "last_5": "WLWLW",
+                "full_form": "WLWLW",
+                "avg_gf": 1.0,
+                "avg_ga": 1.75
+            },
+            "RB Salzburg": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
+                "position": "26",
+                "record": "1W 1D 2L",
+                "last_5": "DLWWD",
+                "full_form": "DLWWD",
+                "avg_gf": 0.75,
+                "avg_ga": 2.0
+            },
+            "Ararat-Armenia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
+                "position": "36",
+                "record": "0W 0D 4L",
+                "last_5": "LLLLW",
+                "full_form": "LLLLW",
+                "avg_gf": 1.0,
+                "avg_ga": 3.5
+            },
+            "Union St.-Gilloise": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+                "position": "4",
+                "record": "3W 1D 0L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 2.5,
+                "avg_ga": 0.5
+            },
+            "Lech Poznan": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
+                "position": "35",
+                "record": "0W 1D 3L",
+                "last_5": "LDLLD",
+                "full_form": "LDLLD",
+                "avg_gf": 0.5,
+                "avg_ga": 3.0
+            },
+            "Viktoria Plzen": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
+                "position": "30",
+                "record": "1W 0D 3L",
+                "last_5": "WLLLW",
+                "full_form": "WLLLW",
+                "avg_gf": 0.75,
+                "avg_ga": 1.75
+            },
+            "Benfica": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+                "position": "1",
+                "record": "4W 0D 0L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 3.25,
+                "avg_ga": 0.75
+            },
+            "Crystal Palace": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+                "position": "21",
+                "record": "1W 2D 1L",
+                "last_5": "DDLWL",
+                "full_form": "DDLWL",
+                "avg_gf": 2.25,
+                "avg_ga": 1.5
+            },
+            "Real Sociedad": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+                "position": "20",
+                "record": "1W 2D 1L",
+                "last_5": "WDLWW",
+                "full_form": "WDLWW",
+                "avg_gf": 2.25,
+                "avg_ga": 1.0
+            },
+            "Ferencvaros": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
+                "position": "3",
+                "record": "4W 0D 0L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 2.75,
+                "avg_ga": 0.75
+            },
+            "NK Celje": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
+                "position": "25",
+                "record": "1W 1D 2L",
+                "last_5": "WDLLL",
+                "full_form": "WDLLL",
+                "avg_gf": 1.25,
+                "avg_ga": 2.25
+            },
+            "Juventus": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+                "position": "5",
+                "record": "3W 1D 0L",
+                "last_5": "DWWLW",
+                "full_form": "DWWLW",
+                "avg_gf": 2.75,
+                "avg_ga": 1.0
+            },
+            "Omonia Nicosia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
+                "position": "18",
+                "record": "2W 0D 2L",
+                "last_5": "LLWWW",
+                "full_form": "LLWWW",
+                "avg_gf": 1.5,
+                "avg_ga": 1.75
+            },
+            "Lyon": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+                "position": "13",
+                "record": "2W 1D 1L",
+                "last_5": "LDWLL",
+                "full_form": "LDWLL",
+                "avg_gf": 1.5,
+                "avg_ga": 1.75
+            },
+            "Lillestrom": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
+                "position": "34",
+                "record": "0W 1D 3L",
+                "last_5": "WLWWL",
+                "full_form": "WLWWL",
+                "avg_gf": 0.5,
+                "avg_ga": 2.5
+            },
+            "NEC Nijmegen": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+                "position": "12",
+                "record": "2W 1D 1L",
+                "last_5": "WWLDW",
+                "full_form": "WWLDW",
+                "avg_gf": 2.0,
+                "avg_ga": 2.25
+            },
+            "Stade Rennais": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+                "position": "17",
+                "record": "1W 3D 0L",
+                "last_5": "LDLWD",
+                "full_form": "LDLWD",
+                "avg_gf": 1.0,
+                "avg_ga": 0.75
+            },
+            "OFI Crete": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+                "position": "16",
+                "record": "2W 0D 2L",
+                "last_5": "DWWWL",
+                "full_form": "DWWWL",
+                "avg_gf": 1.25,
+                "avg_ga": 1.0
+            },
+            "Anderlecht": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
+                "position": "15",
+                "record": "2W 0D 2L",
+                "last_5": "DWWLW",
+                "full_form": "DWWLW",
+                "avg_gf": 1.5,
+                "avg_ga": 0.75
+            },
+            "Sparta Prague": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
+                "position": "22",
+                "record": "1W 1D 2L",
+                "last_5": "DLDWL",
+                "full_form": "DLDWL",
+                "avg_gf": 1.5,
+                "avg_ga": 1.5
+            },
+            "AZ Alkmaar": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+                "position": "14",
+                "record": "2W 0D 2L",
+                "last_5": "WLLLW",
+                "full_form": "WLLLW",
+                "avg_gf": 1.75,
+                "avg_ga": 1.0
+            },
+            "Sunderland": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+                "position": "11",
+                "record": "2W 1D 1L",
+                "last_5": "WLLWD",
+                "full_form": "WLLWD",
+                "avg_gf": 1.0,
+                "avg_ga": 1.0
+            },
+            "Jagiellonia Bialystok": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
+                "position": "29",
+                "record": "1W 0D 3L",
+                "last_5": "LLWLW",
+                "full_form": "LLWLW",
+                "avg_gf": 1.0,
+                "avg_ga": 1.75
+            },
+            "Torreense": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
+                "position": "19",
+                "record": "2W 0D 2L",
+                "last_5": "WLLWL",
+                "full_form": "WLLWL",
+                "avg_gf": 1.75,
+                "avg_ga": 2.25
+            },
+            "Celtic": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
+                "position": "32",
+                "record": "1W 0D 3L",
+                "last_5": "DWLDW",
+                "full_form": "DWLDW",
+                "avg_gf": 1.5,
+                "avg_ga": 2.75
+            },
+            "TSG Hoffenheim": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+                "position": "23",
+                "record": "1W 1D 2L",
+                "last_5": "WDLLW",
+                "full_form": "WDLLW",
+                "avg_gf": 1.5,
+                "avg_ga": 1.5
+            },
+            "SK Sturm Graz": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
+                "position": "24",
+                "record": "1W 1D 2L",
+                "last_5": "DLDDW",
+                "full_form": "DLDDW",
+                "avg_gf": 0.75,
+                "avg_ga": 1.5
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Besiktas",
+                "away": "Hapoel Be'er",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Celta Vigo",
+                "away": "AFC Bournemouth",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Dinamo Zagreb",
+                "away": "Bayer Leverkusen",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Marseille",
+                "away": "Levski Sofia",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Olympiacos",
+                "away": "AC Milan",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "RB Salzburg",
+                "away": "Ararat-Armenia",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Union St.-Gilloise",
+                "away": "Lech Poznan",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Viktoria Plzen",
+                "away": "Benfica",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Crystal Palace",
+                "away": "Real Sociedad",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "Ferencvaros",
+                "away": "NK Celje",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "Juventus",
+                "away": "Omonia Nicosia",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "Lyon",
+                "away": "Lillestrom",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "NEC Nijmegen",
+                "away": "Stade Rennais",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "OFI Crete",
+                "away": "Anderlecht",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "Sparta Prague",
+                "away": "AZ Alkmaar",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "Sunderland",
+                "away": "Jagiellonia Bialystok",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "Torreense",
+                "away": "Celtic",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "TSG Hoffenheim",
+                "away": "SK Sturm Graz",
+                "date": "2026-11-26",
+                "time": "20:00"
+            }
+        ]
+    },
+    "UEFA - Conference League": {
+        "teams": {
+            "Kairat Almaty": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+                "position": "27",
+                "record": "0W 2D 1L",
+                "last_5": "DLDLL",
+                "full_form": "DLDLL",
+                "avg_gf": 1.0,
+                "avg_ga": 2.33
+            },
+            "Mjällby AIF": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
+                "position": "9",
+                "record": "2W 1D 0L",
+                "last_5": "DWDWL",
+                "full_form": "DWDWL",
+                "avg_gf": 1.67,
+                "avg_ga": 0.33
+            },
+            "Ajax Amsterdam": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+                "position": "11",
+                "record": "2W 0D 1L",
+                "last_5": "DWWWW",
+                "full_form": "DWWWW",
+                "avg_gf": 3.0,
+                "avg_ga": 1.0
+            },
+            "FC Thun": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3024.png",
+                "position": "20",
+                "record": "1W 0D 2L",
+                "last_5": "WLLDL",
+                "full_form": "WLLDL",
+                "avg_gf": 1.0,
+                "avg_ga": 1.0
+            },
+            "Brighton & Hove Albion": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+                "position": "5",
+                "record": "2W 1D 0L",
+                "last_5": "DWWLL",
+                "full_form": "DWWLL",
+                "avg_gf": 1.67,
+                "avg_ga": 0.0
+            },
+            "CSU Craiova": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png",
+                "position": "8",
+                "record": "2W 1D 0L",
+                "last_5": "WWDLD",
+                "full_form": "WWDLD",
+                "avg_gf": 2.0,
+                "avg_ga": 0.67
+            },
+            "Egnatia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21943.png",
+                "position": "26",
+                "record": "0W 2D 1L",
+                "last_5": "LDDLD",
+                "full_form": "LDDLD",
+                "avg_gf": 0.67,
+                "avg_ga": 1.33
+            },
+            "Lincoln Red Imps": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17856.png",
+                "position": "22",
+                "record": "1W 0D 2L",
+                "last_5": "WLLWL",
+                "full_form": "WLLWL",
+                "avg_gf": 1.0,
+                "avg_ga": 2.0
+            },
+            "Heart of Midlothian": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
+                "position": "32",
+                "record": "0W 1D 2L",
+                "last_5": "LLLDW",
+                "full_form": "LLLDW",
+                "avg_gf": 0.67,
+                "avg_ga": 2.0
+            },
+            "AS Monaco": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+                "position": "4",
+                "record": "3W 0D 0L",
+                "last_5": "DWLDW",
+                "full_form": "DWLDW",
+                "avg_gf": 2.33,
+                "avg_ga": 0.33
+            },
+            "Iberia 1999": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20025.png",
+                "position": "29",
+                "record": "0W 1D 2L",
+                "last_5": "LDLLL",
+                "full_form": "LDLLL",
+                "avg_gf": 0.67,
+                "avg_ga": 1.67
+            },
+            "Getafe": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+                "position": "31",
+                "record": "0W 1D 2L",
+                "last_5": "LLWWL",
+                "full_form": "LLWWL",
+                "avg_gf": 1.0,
+                "avg_ga": 2.33
+            },
+            "Jablonec": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7922.png",
+                "position": "23",
+                "record": "0W 2D 1L",
+                "last_5": "DDLWL",
+                "full_form": "DDLWL",
+                "avg_gf": 1.0,
+                "avg_ga": 1.33
+            },
+            "FC Lugano": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7672.png",
+                "position": "1",
+                "record": "3W 0D 0L",
+                "last_5": "WWWDW",
+                "full_form": "WWWDW",
+                "avg_gf": 3.67,
+                "avg_ga": 1.33
+            },
+            "Kauno Zalgiris": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20028.png",
+                "position": "36",
+                "record": "0W 0D 3L",
+                "last_5": "LLLWL",
+                "full_form": "LLLWL",
+                "avg_gf": 0.33,
+                "avg_ga": 3.67
+            },
+            "Riga FC": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19246.png",
+                "position": "19",
+                "record": "0W 3D 0L",
+                "last_5": "DDDWD",
+                "full_form": "DDDWD",
+                "avg_gf": 1.0,
+                "avg_ga": 1.0
+            },
+            "Pafos": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
+                "position": "30",
+                "record": "0W 1D 2L",
+                "last_5": "LDLWD",
+                "full_form": "LDLWD",
+                "avg_gf": 1.0,
+                "avg_ga": 2.33
+            },
+            "FC Midtjylland": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/572.png",
+                "position": "34",
+                "record": "0W 1D 2L",
+                "last_5": "DLWWL",
+                "full_form": "DLWWL",
+                "avg_gf": 0.67,
+                "avg_ga": 2.67
+            },
+            "SK Brann": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
+                "position": "6",
+                "record": "2W 1D 0L",
+                "last_5": "DDWLW",
+                "full_form": "DDWLW",
+                "avg_gf": 2.33,
+                "avg_ga": 1.0
+            },
+            "AGF": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7853.png",
+                "position": "24",
+                "record": "0W 2D 1L",
+                "last_5": "DDLWD",
+                "full_form": "DDLWD",
+                "avg_gf": 0.33,
+                "avg_ga": 0.67
+            },
+            "Borac Banja Luka": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20710.png",
+                "position": "21",
+                "record": "1W 0D 2L",
+                "last_5": "LWLWW",
+                "full_form": "LWLWW",
+                "avg_gf": 1.0,
+                "avg_ga": 1.33
+            },
+            "Atalanta": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+                "position": "16",
+                "record": "1W 1D 1L",
+                "last_5": "WDLDD",
+                "full_form": "WDLDD",
+                "avg_gf": 1.33,
+                "avg_ga": 1.33
+            },
+            "Braga": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+                "position": "17",
+                "record": "1W 1D 1L",
+                "last_5": "WDWLW",
+                "full_form": "WDWLW",
+                "avg_gf": 0.67,
+                "avg_ga": 1.0
+            },
+            "KuPS Kuopio": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8169.png",
+                "position": "33",
+                "record": "0W 1D 2L",
+                "last_5": "DLLWD",
+                "full_form": "DLLWD",
+                "avg_gf": 0.67,
+                "avg_ga": 2.0
+            },
+            "CSKA Sofia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10834.png",
+                "position": "28",
+                "record": "0W 1D 2L",
+                "last_5": "LDLLL",
+                "full_form": "LDLLL",
+                "avg_gf": 1.33,
+                "avg_ga": 2.0
+            },
+            "Trabzonspor": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+                "position": "12",
+                "record": "2W 0D 1L",
+                "last_5": "WLWWW",
+                "full_form": "WLWWW",
+                "avg_gf": 2.0,
+                "avg_ga": 1.0
+            },
+            "FC Nordsjælland": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3101.png",
+                "position": "25",
+                "record": "0W 2D 1L",
+                "last_5": "WLLDD",
+                "full_form": "WLLDD",
+                "avg_gf": 1.0,
+                "avg_ga": 1.67
+            },
+            "Panathinaikos": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
+                "position": "2",
+                "record": "3W 0D 0L",
+                "last_5": "DWWWW",
+                "full_form": "DWWWW",
+                "avg_gf": 3.0,
+                "avg_ga": 1.0
+            },
+            "Hajduk Split": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/489.png",
+                "position": "13",
+                "record": "2W 0D 1L",
+                "last_5": "LWWWD",
+                "full_form": "LWWWD",
+                "avg_gf": 1.0,
+                "avg_ga": 0.67
+            },
+            "Sint-Truidense": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/936.png",
+                "position": "10",
+                "record": "2W 1D 0L",
+                "last_5": "DDLLW",
+                "full_form": "DDLLW",
+                "avg_gf": 1.33,
+                "avg_ga": 0.33
+            },
+            "Inter D'Escaldes": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20703.png",
+                "position": "35",
+                "record": "0W 0D 3L",
+                "last_5": "LLLDD",
+                "full_form": "LLLDD",
+                "avg_gf": 0.67,
+                "avg_ga": 2.33
+            },
+            "F.C. København": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+                "position": "7",
+                "record": "2W 1D 0L",
+                "last_5": "WWWDD",
+                "full_form": "WWWDD",
+                "avg_gf": 2.33,
+                "avg_ga": 1.0
+            },
+            "KAA Gent": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png",
+                "position": "18",
+                "record": "1W 1D 1L",
+                "last_5": "DDLWL",
+                "full_form": "DDLWL",
+                "avg_gf": 0.33,
+                "avg_ga": 0.67
+            },
+            "Red Star Belgrade": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2290.png",
+                "position": "15",
+                "record": "1W 1D 1L",
+                "last_5": "WDLLW",
+                "full_form": "WDLLW",
+                "avg_gf": 2.0,
+                "avg_ga": 2.0
+            },
+            "SC Freiburg": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+                "position": "14",
+                "record": "2W 0D 1L",
+                "last_5": "WWWWL",
+                "full_form": "WWWWL",
+                "avg_gf": 1.33,
+                "avg_ga": 1.67
+            },
+            "FC Twente": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
+                "position": "3",
+                "record": "3W 0D 0L",
+                "last_5": "DWWWW",
+                "full_form": "DWWWW",
+                "avg_gf": 2.67,
+                "avg_ga": 0.67
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Kairat Almaty",
+                "away": "Mjällby AIF",
+                "date": "2026-11-26",
+                "time": "15:30"
+            },
+            {
+                "home": "Ajax Amsterdam",
+                "away": "FC Thun",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Brighton & Hove Albion",
+                "away": "CSU Craiova",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Egnatia",
+                "away": "Lincoln Red Imps",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Heart of Midlothian",
+                "away": "AS Monaco",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Iberia 1999",
+                "away": "Getafe",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Jablonec",
+                "away": "FC Lugano",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Kauno Zalgiris",
+                "away": "Riga FC",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Pafos",
+                "away": "FC Midtjylland",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "SK Brann",
+                "away": "AGF",
+                "date": "2026-11-26",
+                "time": "17:45"
+            },
+            {
+                "home": "Borac Banja Luka",
+                "away": "Atalanta",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "Braga",
+                "away": "KuPS Kuopio",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "CSKA Sofia",
+                "away": "Trabzonspor",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "FC Nordsjælland",
+                "away": "Panathinaikos",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "Hajduk Split",
+                "away": "Sint-Truidense",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "Inter D'Escaldes",
+                "away": "F.C. København",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "KAA Gent",
+                "away": "Red Star Belgrade",
+                "date": "2026-11-26",
+                "time": "20:00"
+            },
+            {
+                "home": "SC Freiburg",
+                "away": "FC Twente",
+                "date": "2026-11-26",
+                "time": "20:00"
+            }
+        ]
+    },
+    "South Africa - Premiership (PSL)": {
+        "teams": {
+            "Durban City": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22348.png",
+                "position": "13",
+                "record": "1W 4D 4L",
+                "last_5": "LWWLD",
+                "full_form": "LWWLD",
+                "avg_gf": 0.67,
+                "avg_ga": 1.22
+            },
+            "Polokwane City FC": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7099.png",
+                "position": "11",
+                "record": "1W 5D 3L",
+                "last_5": "DLLDD",
+                "full_form": "DLLDD",
+                "avg_gf": 0.89,
+                "avg_ga": 1.22
+            },
+            "Orlando Pirates": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7085.png",
+                "position": "2",
+                "record": "8W 1D 0L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 2.33,
+                "avg_ga": 0.22
+            },
+            "Golden Arrows": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7077.png",
+                "position": "10",
+                "record": "1W 5D 3L",
+                "last_5": "LLDDL",
+                "full_form": "LLDDL",
+                "avg_gf": 0.33,
+                "avg_ga": 0.56
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Durban City",
+                "away": "Polokwane City FC",
+                "date": "2026-11-24",
+                "time": "17:30"
+            },
+            {
+                "home": "Orlando Pirates",
+                "away": "Golden Arrows",
+                "date": "2026-11-24",
+                "time": "17:30"
+            }
+        ]
+    },
+    "Netherlands - Eredivisie": {
+        "teams": {
+            "NEC Nijmegen": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+                "position": "11",
+                "record": "3W 5D 4L",
+                "last_5": "WWLDW",
+                "full_form": "WWLDW",
+                "avg_gf": 1.67,
+                "avg_ga": 1.75
+            },
+            "PSV Eindhoven": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+                "position": "1",
+                "record": "8W 2D 2L",
+                "last_5": "WLWDW",
+                "full_form": "WLWDW",
+                "avg_gf": 3.33,
+                "avg_ga": 1.25
+            },
+            "FC Utrecht": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/153.png",
+                "position": "14",
+                "record": "3W 3D 6L",
+                "last_5": "LLWDW",
+                "full_form": "LLWDW",
+                "avg_gf": 1.75,
+                "avg_ga": 2.83
+            },
+            "SC Cambuur": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
+                "position": "10",
+                "record": "4W 3D 5L",
+                "last_5": "LWWWD",
+                "full_form": "LWWWD",
+                "avg_gf": 2.08,
+                "avg_ga": 2.25
+            },
+            "Feyenoord Rotterdam": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+                "position": "2",
+                "record": "7W 4D 1L",
+                "last_5": "LLDDL",
+                "full_form": "LLDDL",
+                "avg_gf": 3.0,
+                "avg_ga": 1.42
+            },
+            "Excelsior": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png",
+                "position": "15",
+                "record": "3W 2D 7L",
+                "last_5": "LLWLL",
+                "full_form": "LLWLL",
+                "avg_gf": 1.33,
+                "avg_ga": 2.42
+            },
+            "FC Groningen": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/145.png",
+                "position": "9",
+                "record": "4W 3D 5L",
+                "last_5": "LLLDL",
+                "full_form": "LLLDL",
+                "avg_gf": 2.42,
+                "avg_ga": 2.33
+            },
+            "Heerenveen": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/146.png",
+                "position": "6",
+                "record": "6W 3D 3L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 2.0,
+                "avg_ga": 1.33
+            },
+            "Telstar": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
+                "position": "16",
+                "record": "2W 4D 6L",
+                "last_5": "DWLLL",
+                "full_form": "DWLLL",
+                "avg_gf": 1.5,
+                "avg_ga": 2.08
+            },
+            "PEC Zwolle": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png",
+                "position": "13",
+                "record": "3W 3D 6L",
+                "last_5": "DWLDW",
+                "full_form": "DWLDW",
+                "avg_gf": 1.08,
+                "avg_ga": 2.0
+            }
+        },
+        "fixtures": [
+            {
+                "home": "NEC Nijmegen",
+                "away": "PSV Eindhoven",
+                "date": "2026-11-21",
+                "time": "15:30"
+            },
+            {
+                "home": "FC Utrecht",
+                "away": "SC Cambuur",
+                "date": "2026-11-21",
+                "time": "17:45"
+            },
+            {
+                "home": "Feyenoord Rotterdam",
+                "away": "Excelsior",
+                "date": "2026-11-21",
+                "time": "17:45"
+            },
+            {
+                "home": "FC Groningen",
+                "away": "Heerenveen",
+                "date": "2026-11-21",
+                "time": "20:00"
+            },
+            {
+                "home": "Telstar",
+                "away": "PEC Zwolle",
+                "date": "2026-11-21",
+                "time": "20:00"
+            }
+        ]
+    },
+    "Portugal - Primeira Liga": {
+        "teams": {
+            "Maritimo": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/552.png",
+                "position": "15",
+                "record": "2W 2D 6L",
+                "last_5": "LLWLD",
+                "full_form": "LLWLD",
+                "avg_gf": 0.9,
+                "avg_ga": 2.1
+            },
+            "C.D. Nacional": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3472.png",
+                "position": "13",
+                "record": "3W 1D 7L",
+                "last_5": "WLWLL",
+                "full_form": "WLWLL",
+                "avg_gf": 1.0,
+                "avg_ga": 1.73
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Maritimo",
+                "away": "C.D. Nacional",
+                "date": "2026-11-27",
+                "time": "20:15"
+            }
+        ]
+    },
+    "Scotland - Premiership": {
+        "teams": {
+            "Celtic": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
+                "position": "1",
+                "record": "10W 1D 2L",
+                "last_5": "DWLDW",
+                "full_form": "DWLDW",
+                "avg_gf": 2.15,
+                "avg_ga": 0.77
+            },
+            "St Mirren": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/250.png",
+                "position": "8",
+                "record": "4W 2D 7L",
+                "last_5": "DLDWL",
+                "full_form": "DLDWL",
+                "avg_gf": 0.92,
+                "avg_ga": 1.69
+            },
+            "Falkirk": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/254.png",
+                "position": "3",
+                "record": "6W 3D 4L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 1.54,
+                "avg_ga": 1.08
+            },
+            "St Johnstone": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/267.png",
+                "position": "7",
+                "record": "4W 5D 4L",
+                "last_5": "WDDLD",
+                "full_form": "WDDLD",
+                "avg_gf": 1.31,
+                "avg_ga": 1.54
+            },
+            "Hibernian": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/258.png",
+                "position": "10",
+                "record": "3W 2D 7L",
+                "last_5": "WWDLL",
+                "full_form": "WWDLL",
+                "avg_gf": 1.25,
+                "avg_ga": 1.42
+            },
+            "Dundee United": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/264.png",
+                "position": "6",
+                "record": "4W 5D 3L",
+                "last_5": "DDWDW",
+                "full_form": "DDWDW",
+                "avg_gf": 1.42,
+                "avg_ga": 1.42
+            },
+            "Kilmarnock": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/260.png",
+                "position": "12",
+                "record": "2W 3D 8L",
+                "last_5": "DDLLW",
+                "full_form": "DDLLW",
+                "avg_gf": 1.0,
+                "avg_ga": 2.23
+            },
+            "Aberdeen": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/263.png",
+                "position": "11",
+                "record": "3W 2D 7L",
+                "last_5": "LLLLW",
+                "full_form": "LLLLW",
+                "avg_gf": 1.0,
+                "avg_ga": 1.5
+            },
+            "Dundee": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/261.png",
+                "position": "5",
+                "record": "5W 2D 5L",
+                "last_5": "LWLDW",
+                "full_form": "LWLDW",
+                "avg_gf": 1.5,
+                "avg_ga": 1.25
+            },
+            "Heart of Midlothian": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
+                "position": "4",
+                "record": "6W 2D 4L",
+                "last_5": "LLLDW",
+                "full_form": "LLLDW",
+                "avg_gf": 2.17,
+                "avg_ga": 1.83
+            },
+            "Motherwell": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/266.png",
+                "position": "9",
+                "record": "3W 4D 6L",
+                "last_5": "DWDLL",
+                "full_form": "DWDLL",
+                "avg_gf": 1.15,
+                "avg_ga": 1.62
+            },
+            "Rangers": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/257.png",
+                "position": "2",
+                "record": "8W 3D 1L",
+                "last_5": "DWDWD",
+                "full_form": "DWDWD",
+                "avg_gf": 1.75,
+                "avg_ga": 0.75
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Celtic",
+                "away": "St Mirren",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Falkirk",
+                "away": "St Johnstone",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Hibernian",
+                "away": "Dundee United",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Kilmarnock",
+                "away": "Aberdeen",
+                "date": "2026-11-21",
+                "time": "15:00"
+            },
+            {
+                "home": "Dundee",
+                "away": "Heart of Midlothian",
+                "date": "2026-11-21",
+                "time": "17:45"
+            },
+            {
+                "home": "Motherwell",
+                "away": "Rangers",
+                "date": "2026-11-21",
+                "time": "20:00"
+            }
+        ]
+    },
+    "Turkey - Süper Lig": {
+        "teams": {
+            "Genclerbirligi": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+                "position": "14",
+                "record": "3W 2D 6L",
+                "last_5": "LWLLD",
+                "full_form": "LWLLD",
+                "avg_gf": 1.09,
+                "avg_ga": 1.91
+            },
+            "Gaziantep FK": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+                "position": "16",
+                "record": "2W 2D 7L",
+                "last_5": "LLLLL",
+                "full_form": "LLLLL",
+                "avg_gf": 0.82,
+                "avg_ga": 1.73
+            },
+            "Amed SFK": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132335.png",
+                "position": "3",
+                "record": "7W 2D 2L",
+                "last_5": "LWWWD",
+                "full_form": "LWWWD",
+                "avg_gf": 2.55,
+                "avg_ga": 1.36
+            },
+            "Caykur Rizespor": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+                "position": "11",
+                "record": "4W 2D 5L",
+                "last_5": "WDLLL",
+                "full_form": "WDLLL",
+                "avg_gf": 1.18,
+                "avg_ga": 1.45
+            },
+            "Galatasaray": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+                "position": "1",
+                "record": "9W 1D 1L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 2.45,
+                "avg_ga": 1.36
+            },
+            "Samsunspor": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+                "position": "17",
+                "record": "2W 1D 8L",
+                "last_5": "WLLLL",
+                "full_form": "WLLLL",
+                "avg_gf": 1.0,
+                "avg_ga": 2.36
+            },
+            "Kocaelispor": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+                "position": "7",
+                "record": "6W 1D 4L",
+                "last_5": "DDWLL",
+                "full_form": "DDWLL",
+                "avg_gf": 1.18,
+                "avg_ga": 0.82
+            },
+            "Fenerbahce": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+                "position": "6",
+                "record": "6W 1D 4L",
+                "last_5": "WWLLD",
+                "full_form": "WWLLD",
+                "avg_gf": 2.64,
+                "avg_ga": 0.91
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Genclerbirligi",
+                "away": "Gaziantep FK",
+                "date": "2026-11-21",
+                "time": "10:30"
+            },
+            {
+                "home": "Amed SFK",
+                "away": "Caykur Rizespor",
+                "date": "2026-11-21",
+                "time": "13:00"
+            },
+            {
+                "home": "Galatasaray",
+                "away": "Samsunspor",
+                "date": "2026-11-21",
+                "time": "13:00"
+            },
+            {
+                "home": "Kocaelispor",
+                "away": "Fenerbahce",
+                "date": "2026-11-21",
+                "time": "16:00"
+            }
+        ]
+    },
+    "Brazil - Série A": {
+        "teams": {
+            "Palmeiras": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+                "position": "2",
+                "record": "21W 10D 4L",
+                "last_5": "LLWWD",
+                "full_form": "LLWWD",
+                "avg_gf": 1.8,
+                "avg_ga": 0.71
+            },
+            "Flamengo": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+                "position": "1",
+                "record": "24W 7D 4L",
+                "last_5": "WWWWD",
+                "full_form": "WWWWD",
+                "avg_gf": 2.09,
+                "avg_ga": 0.86
+            },
+            "Bahia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+                "position": "6",
+                "record": "14W 12D 9L",
+                "last_5": "DLWDL",
+                "full_form": "DLWDL",
+                "avg_gf": 1.43,
+                "avg_ga": 1.29
+            },
+            "Coritiba": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+                "position": "13",
+                "record": "11W 9D 15L",
+                "last_5": "LLWLL",
+                "full_form": "LLWLL",
+                "avg_gf": 1.14,
+                "avg_ga": 1.49
+            },
+            "Chapecoense": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+                "position": "20",
+                "record": "4W 9D 22L",
+                "last_5": "LLLLW",
+                "full_form": "LLLLW",
+                "avg_gf": 0.94,
+                "avg_ga": 2.06
+            },
+            "Cruzeiro": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+                "position": "3",
+                "record": "19W 6D 10L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 1.63,
+                "avg_ga": 1.4
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Palmeiras",
+                "away": "Flamengo",
+                "date": "2026-11-21",
+                "time": "19:30"
+            },
+            {
+                "home": "Bahia",
+                "away": "Coritiba",
+                "date": "2026-11-21",
+                "time": "20:30"
+            },
+            {
+                "home": "Chapecoense",
+                "away": "Cruzeiro",
+                "date": "2026-11-22",
+                "time": "00:00"
+            }
+        ]
+    },
+    "Argentina - Liga Profesional": {
+        "teams": {
+            "Vélez Sarsfield": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+                "position": "3",
+                "record": "7W 7D 2L",
+                "last_5": "LDWWL",
+                "full_form": "LDWWL",
+                "avg_gf": 1.56,
+                "avg_ga": 1.06
+            },
+            "Belgrano (Córdoba)": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
+                "position": "6",
+                "record": "6W 5D 5L",
+                "last_5": "LDLLW",
+                "full_form": "LDLLW",
+                "avg_gf": 1.06,
+                "avg_ga": 0.94
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Vélez Sarsfield",
+                "away": "Belgrano (Córdoba)",
+                "date": "2026-11-20",
+                "time": "23:00"
+            }
+        ]
+    },
+    "USA - MLS": {
+        "teams": {
+            "New England Revolution": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+                "position": "3",
+                "record": "18W 4D 12L",
+                "last_5": "LLWWW",
+                "full_form": "LLWWW",
+                "avg_gf": 1.62,
+                "avg_ga": 1.38
+            },
+            "Philadelphia Union": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
+                "position": "6",
+                "record": "14W 8D 12L",
+                "last_5": "WLDLD",
+                "full_form": "WLDLD",
+                "avg_gf": 1.94,
+                "avg_ga": 1.53
+            },
+            "FC Dallas": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
+                "position": "2",
+                "record": "16W 10D 8L",
+                "last_5": "WDLWD",
+                "full_form": "WDLWD",
+                "avg_gf": 1.82,
+                "avg_ga": 1.5
+            },
+            "Portland Timbers": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
+                "position": "7",
+                "record": "13W 7D 14L",
+                "last_5": "WWWWD",
+                "full_form": "WWWWD",
+                "avg_gf": 1.82,
+                "avg_ga": 1.79
+            },
+            "Inter Miami CF": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+                "position": "2",
+                "record": "16W 12D 6L",
+                "last_5": "DWDLW",
+                "full_form": "DWDLW",
+                "avg_gf": 2.35,
+                "avg_ga": 1.74
+            },
+            "Columbus Crew": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+                "position": "7",
+                "record": "14W 5D 15L",
+                "last_5": "WWWWL",
+                "full_form": "WWWWL",
+                "avg_gf": 1.74,
+                "avg_ga": 1.53
+            }
+        },
+        "fixtures": [
+            {
+                "home": "New England Revolution",
+                "away": "Philadelphia Union",
+                "date": "2026-11-21",
+                "time": "19:00"
+            },
+            {
+                "home": "FC Dallas",
+                "away": "Portland Timbers",
+                "date": "2026-11-21",
+                "time": "21:00"
+            },
+            {
+                "home": "Inter Miami CF",
+                "away": "Columbus Crew",
+                "date": "2026-11-21",
+                "time": "23:00"
+            }
+        ]
+    },
+    "International - Friendly / Nations": {
+        "teams": {
+            "Tahiti": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tah.png",
+                "position": "-",
+                "record": "2W 1D 2L",
+                "last_5": "DWLWL",
+                "full_form": "DWLWL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Cook Islands": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cok.png",
+                "position": "-",
+                "record": "1W 1D 3L",
+                "last_5": "DLWLL",
+                "full_form": "DLWLL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Malaysia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mas.png",
+                "position": "-",
+                "record": "2W 0D 3L",
+                "last_5": "WLLLW",
+                "full_form": "WLLLW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Yemen": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/yem.png",
+                "position": "-",
+                "record": "1W 0D 4L",
+                "last_5": "LLWLL",
+                "full_form": "LLWLL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Singapore": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sin.png",
+                "position": "-",
+                "record": "1W 1D 3L",
+                "last_5": "LLWLD",
+                "full_form": "LLWLD",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Brazil": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+                "position": "-",
+                "record": "3W 1D 1L",
+                "last_5": "WLWWD",
+                "full_form": "WLWWD",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "China": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/chn.png",
+                "position": "-",
+                "record": "1W 1D 3L",
+                "last_5": "DWLLL",
+                "full_form": "DWLLL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Bahrain": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bhr.png",
+                "position": "-",
+                "record": "1W 1D 3L",
+                "last_5": "DWLLL",
+                "full_form": "DWLLL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Kyrgyz Republic": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kgz.png",
+                "position": "-",
+                "record": "4W 1D 0L",
+                "last_5": "WWWWD",
+                "full_form": "WWWWD",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Vietnam": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/vie.png",
+                "position": "-",
+                "record": "3W 1D 1L",
+                "last_5": "LWDWW",
+                "full_form": "LWDWW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Lebanon": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/lib.png",
+                "position": "-",
+                "record": "1W 2D 2L",
+                "last_5": "DDLWL",
+                "full_form": "DDLWL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Palestine": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pal.png",
+                "position": "-",
+                "record": "2W 2D 1L",
+                "last_5": "DLWWD",
+                "full_form": "DLWWD",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Japan": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+                "position": "-",
+                "record": "3W 0D 2L",
+                "last_5": "LWWWL",
+                "full_form": "LWWWL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Paraguay": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+                "position": "-",
+                "record": "4W 0D 1L",
+                "last_5": "WWWWL",
+                "full_form": "WWWWL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Qatar": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+                "position": "-",
+                "record": "1W 1D 3L",
+                "last_5": "LLLDW",
+                "full_form": "LLLDW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "South Korea": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+                "position": "-",
+                "record": "2W 1D 2L",
+                "last_5": "WLWDL",
+                "full_form": "WLWDL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "United Arab Emirates": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uae.png",
+                "position": "-",
+                "record": "2W 2D 1L",
+                "last_5": "DWLWD",
+                "full_form": "DWLWD",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Syria": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/syr.png",
+                "position": "-",
+                "record": "0W 2D 3L",
+                "last_5": "DLLDL",
+                "full_form": "DLLDL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Saudi Arabia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+                "position": "-",
+                "record": "4W 0D 1L",
+                "last_5": "LWWWW",
+                "full_form": "LWWWW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Uzbekistan": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+                "position": "-",
+                "record": "3W 0D 2L",
+                "last_5": "WLLWW",
+                "full_form": "WLLWW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Jordan": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+                "position": "-",
+                "record": "1W 2D 2L",
+                "last_5": "WDDLL",
+                "full_form": "WDDLL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Australia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+                "position": "-",
+                "record": "1W 1D 3L",
+                "last_5": "LWLDL",
+                "full_form": "LWLDL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Russia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rus.png",
+                "position": "-",
+                "record": "4W 1D 0L",
+                "last_5": "WWDWW",
+                "full_form": "WWDWW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Venezuela": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ven.png",
+                "position": "-",
+                "record": "0W 2D 3L",
+                "last_5": "LLDDL",
+                "full_form": "LLDDL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Iraq": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+                "position": "-",
+                "record": "1W 3D 1L",
+                "last_5": "DDLWD",
+                "full_form": "DDLWD",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Iran": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+                "position": "-",
+                "record": "1W 2D 2L",
+                "last_5": "DWLLD",
+                "full_form": "DWLLD",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Kuwait": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kuw.png",
+                "position": "-",
+                "record": "1W 1D 3L",
+                "last_5": "DWLLL",
+                "full_form": "DWLLL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Honduras": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hon.png",
+                "position": "-",
+                "record": "1W 2D 2L",
+                "last_5": "DLDLW",
+                "full_form": "DLDLW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Argentina": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+                "position": "-",
+                "record": "4W 0D 1L",
+                "last_5": "WLWWW",
+                "full_form": "WLWWW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Costa Rica": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/crc.png",
+                "position": "-",
+                "record": "2W 0D 3L",
+                "last_5": "LLWWL",
+                "full_form": "LLWWL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Chile": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/chi.png",
+                "position": "-",
+                "record": "1W 1D 3L",
+                "last_5": "DLWLL",
+                "full_form": "DLWLL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Colombia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+                "position": "-",
+                "record": "2W 2D 1L",
+                "last_5": "DWWLD",
+                "full_form": "DWWLD",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Ecuador": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+                "position": "-",
+                "record": "3W 0D 2L",
+                "last_5": "WWLLW",
+                "full_form": "WWLLW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Bolivia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bol.png",
+                "position": "-",
+                "record": "0W 0D 5L",
+                "last_5": "LLLLL",
+                "full_form": "LLLLL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Uruguay": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+                "position": "-",
+                "record": "4W 0D 1L",
+                "last_5": "WWWWL",
+                "full_form": "WWWWL",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            },
+            "Dominican Republic": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/dom.png",
+                "position": "-",
+                "record": "3W 0D 2L",
+                "last_5": "LWLWW",
+                "full_form": "LWLWW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.25
+            }
+        },
+        "fixtures": [
+            {
+                "home": "Tahiti",
+                "away": "Cook Islands",
+                "date": "2026-11-17",
+                "time": "05:30"
+            },
+            {
+                "home": "Malaysia",
+                "away": "Yemen",
+                "date": "2026-11-17",
+                "time": "06:00"
+            },
+            {
+                "home": "Singapore",
+                "away": "Brazil",
+                "date": "2026-11-17",
+                "time": "10:00"
+            },
+            {
+                "home": "China",
+                "away": "Bahrain",
+                "date": "2026-11-17",
+                "time": "12:00"
+            },
+            {
+                "home": "Kyrgyz Republic",
+                "away": "Vietnam",
+                "date": "2026-11-17",
+                "time": "12:00"
+            },
+            {
+                "home": "Lebanon",
+                "away": "Palestine",
+                "date": "2026-11-17",
+                "time": "13:00"
+            },
+            {
+                "home": "Japan",
+                "away": "Paraguay",
+                "date": "2026-11-17",
+                "time": "13:10"
+            },
+            {
+                "home": "Qatar",
+                "away": "South Korea",
+                "date": "2026-11-17",
+                "time": "14:00"
+            },
+            {
+                "home": "United Arab Emirates",
+                "away": "Syria",
+                "date": "2026-11-17",
+                "time": "14:10"
+            },
+            {
+                "home": "Saudi Arabia",
+                "away": "Uzbekistan",
+                "date": "2026-11-17",
+                "time": "15:30"
+            },
+            {
+                "home": "Jordan",
+                "away": "Australia",
+                "date": "2026-11-17",
+                "time": "16:00"
+            },
+            {
+                "home": "Russia",
+                "away": "Venezuela",
+                "date": "2026-11-17",
+                "time": "16:00"
+            },
+            {
+                "home": "Iraq",
+                "away": "Iran",
+                "date": "2026-11-17",
+                "time": "16:15"
+            },
+            {
+                "home": "Kuwait",
+                "away": "Honduras",
+                "date": "2026-11-17",
+                "time": "16:30"
+            },
+            {
+                "home": "Argentina",
+                "away": "Costa Rica",
+                "date": "2026-11-17",
+                "time": "23:00"
+            },
+            {
+                "home": "Chile",
+                "away": "Colombia",
+                "date": "2026-11-17",
+                "time": "23:00"
+            },
+            {
+                "home": "Ecuador",
+                "away": "Bolivia",
+                "date": "2026-11-17",
+                "time": "23:30"
+            },
+            {
+                "home": "Uruguay",
+                "away": "Dominican Republic",
+                "date": "2026-11-17",
+                "time": "23:30"
+            }
         ]
     }
 }
