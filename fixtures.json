@@ -1,30 +1,30 @@
 {
     "England - Premier League": {
         "teams": {
-            "Brentford": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
-                "position": "10",
-                "record": "3W 5D 2L",
-                "last_5": "DWLDL",
-                "full_form": "DWLDL",
-                "avg_gf": 1.6,
-                "avg_ga": 1.1
+            "Nottingham Forest": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+                "position": "17",
+                "record": "2W 3D 6L",
+                "last_5": "LWLDL",
+                "full_form": "LWLDL",
+                "avg_gf": 0.82,
+                "avg_ga": 1.36
             },
-            "Everton": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-                "position": "7",
-                "record": "4W 4D 2L",
-                "last_5": "DWWLL",
-                "full_form": "DWWLL",
-                "avg_gf": 1.2,
-                "avg_ga": 1.0
+            "Chelsea": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+                "position": "8",
+                "record": "5W 1D 5L",
+                "last_5": "DLWLL",
+                "full_form": "DLWLL",
+                "avg_gf": 1.82,
+                "avg_ga": 1.82
             }
         },
         "fixtures": [
             {
-                "home": "Brentford",
-                "away": "Everton",
-                "date": "2026-11-23",
+                "home": "Nottingham Forest",
+                "away": "Chelsea",
+                "date": "2026-11-27",
                 "time": "20:00"
             }
         ]
@@ -285,52 +285,34 @@
         "teams": {
             "Levante": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-                "position": "18",
-                "record": "2W 5D 5L",
-                "last_5": "WDLLW",
-                "full_form": "WDLLW",
-                "avg_gf": 1.33,
-                "avg_ga": 1.75
+                "position": "15",
+                "record": "2W 6D 5L",
+                "last_5": "DWDLL",
+                "full_form": "DWDLL",
+                "avg_gf": 1.31,
+                "avg_ga": 1.69
             },
-            "Elche": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-                "position": "19",
-                "record": "2W 4D 6L",
-                "last_5": "LLWWD",
-                "full_form": "LLWWD",
-                "avg_gf": 1.17,
-                "avg_ga": 1.67
+            "Racing Santander": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+                "position": "7",
+                "record": "5W 2D 6L",
+                "last_5": "WWLWW",
+                "full_form": "WWLWW",
+                "avg_gf": 1.54,
+                "avg_ga": 2.46
             }
         },
         "fixtures": [
             {
                 "home": "Levante",
-                "away": "Elche",
-                "date": "2026-11-23",
+                "away": "Racing Santander",
+                "date": "2026-11-27",
                 "time": "20:00"
             }
         ]
     },
     "Germany - Bundesliga": {
         "teams": {
-            "FC Augsburg": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
-                "position": "10",
-                "record": "3W 3D 4L",
-                "last_5": "WLLWD",
-                "full_form": "WLLWD",
-                "avg_gf": 2.3,
-                "avg_ga": 2.1
-            },
-            "Mainz": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
-                "position": "13",
-                "record": "3W 1D 6L",
-                "last_5": "LLLLL",
-                "full_form": "LLLLL",
-                "avg_gf": 1.9,
-                "avg_ga": 2.2
-            },
             "Werder Bremen": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
                 "position": "6",
@@ -340,63 +322,66 @@
                 "avg_gf": 2.1,
                 "avg_ga": 1.5
             },
-            "Hamburg SV": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
-                "position": "12",
-                "record": "4W 0D 6L",
-                "last_5": "LWLLL",
-                "full_form": "LWLLL",
-                "avg_gf": 1.0,
-                "avg_ga": 2.4
+            "Borussia Mönchengladbach": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+                "position": "18",
+                "record": "1W 1D 8L",
+                "last_5": "LLDWW",
+                "full_form": "LLDWW",
+                "avg_gf": 1.2,
+                "avg_ga": 2.6
             }
         },
         "fixtures": [
             {
-                "home": "FC Augsburg",
-                "away": "Mainz",
-                "date": "2026-11-22",
-                "time": "14:30"
-            },
-            {
                 "home": "Werder Bremen",
-                "away": "Hamburg SV",
-                "date": "2026-11-22",
-                "time": "16:30"
+                "away": "Borussia Mönchengladbach",
+                "date": "2026-11-27",
+                "time": "19:30"
             }
         ]
     },
     "Italy - Serie A": {
         "teams": {
-            "Monza": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-                "position": "18",
-                "record": "2W 1D 8L",
-                "last_5": "LLLLW",
-                "full_form": "LLLLW",
-                "avg_gf": 1.55,
-                "avg_ga": 2.27
+            "Venezia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+                "position": "20",
+                "record": "2W 0D 10L",
+                "last_5": "LWLLL",
+                "full_form": "LWLLL",
+                "avg_gf": 0.67,
+                "avg_ga": 2.08
             },
-            "Fiorentina": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-                "position": "15",
-                "record": "2W 3D 6L",
-                "last_5": "DWDLL",
-                "full_form": "DWDLL",
-                "avg_gf": 1.55,
-                "avg_ga": 2.27
+            "Bologna": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+                "position": "9",
+                "record": "5W 3D 4L",
+                "last_5": "DWWWW",
+                "full_form": "DWWWW",
+                "avg_gf": 1.42,
+                "avg_ga": 1.25
             }
         },
         "fixtures": [
             {
-                "home": "Monza",
-                "away": "Fiorentina",
-                "date": "2026-11-23",
+                "home": "Venezia",
+                "away": "Bologna",
+                "date": "2026-11-27",
                 "time": "19:45"
             }
         ]
     },
     "France - Ligue 1": {
         "teams": {
+            "Brest": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+                "position": "6",
+                "record": "5W 3D 3L",
+                "last_5": "WWWLD",
+                "full_form": "WWWLD",
+                "avg_gf": 1.73,
+                "avg_ga": 1.09
+            },
             "Paris FC": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
                 "position": "2",
@@ -405,70 +390,13 @@
                 "full_form": "WWWLW",
                 "avg_gf": 1.91,
                 "avg_ga": 0.91
-            },
-            "Angers": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
-                "position": "17",
-                "record": "2W 2D 7L",
-                "last_5": "LLLDL",
-                "full_form": "LLLDL",
-                "avg_gf": 0.82,
-                "avg_ga": 2.09
-            },
-            "Lorient": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-                "position": "10",
-                "record": "4W 4D 3L",
-                "last_5": "DWLDW",
-                "full_form": "DWLDW",
-                "avg_gf": 0.91,
-                "avg_ga": 0.82
-            },
-            "Stade Rennais": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-                "position": "9",
-                "record": "5W 2D 4L",
-                "last_5": "DLDLW",
-                "full_form": "DLDLW",
-                "avg_gf": 2.0,
-                "avg_ga": 2.0
-            },
-            "Marseille": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-                "position": "5",
-                "record": "6W 0D 5L",
-                "last_5": "LWWWW",
-                "full_form": "LWWWW",
-                "avg_gf": 2.18,
-                "avg_ga": 1.55
-            },
-            "Le Mans": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
-                "position": "13",
-                "record": "2W 5D 4L",
-                "last_5": "WDLDL",
-                "full_form": "WDLDL",
-                "avg_gf": 1.36,
-                "avg_ga": 1.91
             }
         },
         "fixtures": [
             {
-                "home": "Paris FC",
-                "away": "Angers",
-                "date": "2026-11-22",
-                "time": "14:00"
-            },
-            {
-                "home": "Lorient",
-                "away": "Stade Rennais",
-                "date": "2026-11-22",
-                "time": "16:15"
-            },
-            {
-                "home": "Marseille",
-                "away": "Le Mans",
-                "date": "2026-11-22",
+                "home": "Brest",
+                "away": "Paris FC",
+                "date": "2026-11-27",
                 "time": "19:45"
             }
         ]
@@ -1292,8 +1220,8 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/572.png",
                 "position": "34",
                 "record": "0W 1D 2L",
-                "last_5": "DLWWL",
-                "full_form": "DLWWL",
+                "last_5": "WDLWW",
+                "full_form": "WDLWW",
                 "avg_gf": 0.67,
                 "avg_ga": 2.67
             },
@@ -1627,14 +1555,14 @@
     },
     "Netherlands - Eredivisie": {
         "teams": {
-            "FC Twente": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
-                "position": "3",
-                "record": "8W 3D 2L",
-                "last_5": "WDWWW",
-                "full_form": "WDWWW",
-                "avg_gf": 2.46,
-                "avg_ga": 1.0
+            "FC Groningen": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/145.png",
+                "position": "10",
+                "record": "4W 3D 6L",
+                "last_5": "LLLLD",
+                "full_form": "LLLLD",
+                "avg_gf": 2.31,
+                "avg_ga": 2.38
             },
             "Willem II": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/156.png",
@@ -1644,86 +1572,14 @@
                 "full_form": "LDLWL",
                 "avg_gf": 0.92,
                 "avg_ga": 3.23
-            },
-            "Ajax Amsterdam": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
-                "position": "2",
-                "record": "8W 4D 1L",
-                "last_5": "WDWWW",
-                "full_form": "WDWWW",
-                "avg_gf": 2.69,
-                "avg_ga": 1.15
-            },
-            "ADO Den Haag": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png",
-                "position": "17",
-                "record": "2W 3D 8L",
-                "last_5": "LWLLL",
-                "full_form": "LWLLL",
-                "avg_gf": 1.23,
-                "avg_ga": 2.15
-            },
-            "Sparta Rotterdam": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
-                "position": "14",
-                "record": "3W 3D 7L",
-                "last_5": "LLWLL",
-                "full_form": "LLWLL",
-                "avg_gf": 1.69,
-                "avg_ga": 2.62
-            },
-            "AZ Alkmaar": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
-                "position": "4",
-                "record": "8W 2D 3L",
-                "last_5": "WWLLL",
-                "full_form": "WWLLL",
-                "avg_gf": 2.23,
-                "avg_ga": 1.31
-            },
-            "Go Ahead Eagles": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3706.png",
-                "position": "9",
-                "record": "4W 5D 4L",
-                "last_5": "DWLWW",
-                "full_form": "DWLWW",
-                "avg_gf": 1.85,
-                "avg_ga": 2.15
-            },
-            "Fortuna Sittard": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
-                "position": "7",
-                "record": "6W 5D 2L",
-                "last_5": "DDDWW",
-                "full_form": "DDDWW",
-                "avg_gf": 1.62,
-                "avg_ga": 1.54
             }
         },
         "fixtures": [
             {
-                "home": "FC Twente",
+                "home": "FC Groningen",
                 "away": "Willem II",
-                "date": "2026-11-22",
-                "time": "11:15"
-            },
-            {
-                "home": "Ajax Amsterdam",
-                "away": "ADO Den Haag",
-                "date": "2026-11-22",
-                "time": "13:30"
-            },
-            {
-                "home": "Sparta Rotterdam",
-                "away": "AZ Alkmaar",
-                "date": "2026-11-22",
-                "time": "13:30"
-            },
-            {
-                "home": "Go Ahead Eagles",
-                "away": "Fortuna Sittard",
-                "date": "2026-11-22",
-                "time": "15:45"
+                "date": "2026-11-27",
+                "time": "19:00"
             }
         ]
     },
@@ -1813,169 +1669,145 @@
     },
     "Turkey - Süper Lig": {
         "teams": {
-            "Istanbul Basaksehir": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-                "position": "9",
-                "record": "5W 2D 4L",
-                "last_5": "DWLWD",
-                "full_form": "DWLWD",
-                "avg_gf": 1.73,
-                "avg_ga": 1.55
+            "Alanyaspor": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+                "position": "14",
+                "record": "3W 3D 6L",
+                "last_5": "LLLLL",
+                "full_form": "LLLLL",
+                "avg_gf": 0.83,
+                "avg_ga": 1.67
             },
-            "Çorum FK": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-                "position": "11",
-                "record": "5W 1D 5L",
-                "last_5": "LWLWW",
-                "full_form": "LWLWW",
-                "avg_gf": 1.91,
-                "avg_ga": 1.91
+            "Konyaspor": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+                "position": "15",
+                "record": "2W 2D 8L",
+                "last_5": "LLLWL",
+                "full_form": "LLLWL",
+                "avg_gf": 0.67,
+                "avg_ga": 1.5
+            },
+            "Caykur Rizespor": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+                "position": "10",
+                "record": "5W 2D 5L",
+                "last_5": "WWDLL",
+                "full_form": "WWDLL",
+                "avg_gf": 1.25,
+                "avg_ga": 1.33
+            },
+            "Kasimpasa": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+                "position": "5",
+                "record": "6W 5D 1L",
+                "last_5": "WWDWW",
+                "full_form": "WWDWW",
+                "avg_gf": 1.58,
+                "avg_ga": 1.0
             }
         },
         "fixtures": [
             {
-                "home": "Istanbul Basaksehir",
-                "away": "Çorum FK",
-                "date": "2026-11-23",
+                "home": "Alanyaspor",
+                "away": "Konyaspor",
+                "date": "2026-11-27",
+                "time": "17:00"
+            },
+            {
+                "home": "Caykur Rizespor",
+                "away": "Kasimpasa",
+                "date": "2026-11-27",
                 "time": "17:00"
             }
         ]
     },
     "Brazil - Série A": {
         "teams": {
-            "Internacional": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-                "position": "17",
-                "record": "9W 11D 15L",
-                "last_5": "LWLWL",
-                "full_form": "LWLWL",
-                "avg_gf": 1.11,
-                "avg_ga": 1.26
+            "Chapecoense": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+                "position": "20",
+                "record": "4W 9D 23L",
+                "last_5": "LLLLL",
+                "full_form": "LLLLL",
+                "avg_gf": 0.94,
+                "avg_ga": 2.06
             },
-            "Vitória": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-                "position": "14",
-                "record": "11W 8D 16L",
-                "last_5": "WLLDD",
-                "full_form": "WLLDD",
-                "avg_gf": 1.06,
-                "avg_ga": 1.49
-            },
-            "Botafogo": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-                "position": "13",
-                "record": "11W 9D 15L",
-                "last_5": "LWLLW",
-                "full_form": "LWLLW",
-                "avg_gf": 1.31,
-                "avg_ga": 1.63
-            },
-            "São Paulo": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-                "position": "12",
-                "record": "12W 8D 15L",
-                "last_5": "DDLDW",
-                "full_form": "DDLDW",
-                "avg_gf": 1.11,
-                "avg_ga": 1.14
-            },
-            "Santos": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-                "position": "9",
-                "record": "13W 11D 11L",
-                "last_5": "WLDDW",
-                "full_form": "WLDDW",
-                "avg_gf": 1.46,
-                "avg_ga": 1.4
-            },
-            "Grêmio": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-                "position": "18",
-                "record": "9W 11D 15L",
-                "last_5": "DDLWW",
-                "full_form": "DDLWW",
-                "avg_gf": 1.09,
-                "avg_ga": 1.34
+            "Palmeiras": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+                "position": "2",
+                "record": "21W 11D 4L",
+                "last_5": "DLLWW",
+                "full_form": "DLLWW",
+                "avg_gf": 1.78,
+                "avg_ga": 0.72
             }
         },
         "fixtures": [
             {
-                "home": "Internacional",
-                "away": "Vitória",
-                "date": "2026-11-23",
-                "time": "22:30"
-            },
-            {
-                "home": "Botafogo",
-                "away": "São Paulo",
-                "date": "2026-11-23",
-                "time": "23:00"
-            },
-            {
-                "home": "Santos",
-                "away": "Grêmio",
+                "home": "Chapecoense",
+                "away": "Palmeiras",
                 "date": "2026-11-24",
-                "time": "00:00"
+                "time": "21:00"
             }
         ]
     },
     "Argentina - Liga Profesional": {
         "teams": {
-            "Gimnasia La Plata": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
-                "position": "3",
-                "record": "9W 4D 3L",
-                "last_5": "WWWWD",
-                "full_form": "WWWWD",
-                "avg_gf": 1.56,
-                "avg_ga": 1.25
+            "Boca Juniors": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+                "position": "2",
+                "record": "9W 6D 1L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 1.5,
+                "avg_ga": 0.88
             },
-            "Newell's Old Boys": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-                "position": "6",
-                "record": "5W 8D 3L",
-                "last_5": "DDDWL",
-                "full_form": "DDDWL",
-                "avg_gf": 1.0,
-                "avg_ga": 0.81
+            "Independiente Rivadavia": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+                "position": "7",
+                "record": "6W 5D 5L",
+                "last_5": "LDWLD",
+                "full_form": "LDWLD",
+                "avg_gf": 1.31,
+                "avg_ga": 1.5
             }
         },
         "fixtures": [
             {
-                "home": "Gimnasia La Plata",
-                "away": "Newell's Old Boys",
-                "date": "2026-11-23",
-                "time": "20:00"
+                "home": "Boca Juniors",
+                "away": "Independiente Rivadavia",
+                "date": "2026-11-26",
+                "time": "00:00"
             }
         ]
     },
     "USA - MLS": {
         "teams": {
-            "St. Louis CITY SC": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
-                "position": "3",
-                "record": "15W 9D 10L",
-                "last_5": "WLLLW",
-                "full_form": "WLLLW",
-                "avg_gf": 1.74,
-                "avg_ga": 1.41
+            "San Jose Earthquakes": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+                "position": "4",
+                "record": "14W 10D 10L",
+                "last_5": "DWDLD",
+                "full_form": "DWDLD",
+                "avg_gf": 1.68,
+                "avg_ga": 1.5
             },
-            "LAFC": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
-                "position": "6",
-                "record": "12W 11D 11L",
-                "last_5": "LLDDW",
-                "full_form": "LLDDW",
-                "avg_gf": 1.53,
-                "avg_ga": 1.18
+            "Houston Dynamo FC": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+                "position": "5",
+                "record": "14W 9D 11L",
+                "last_5": "LLWDD",
+                "full_form": "LLWDD",
+                "avg_gf": 1.26,
+                "avg_ga": 1.26
             }
         },
         "fixtures": [
             {
-                "home": "St. Louis CITY SC",
-                "away": "LAFC",
-                "date": "2026-11-24",
-                "time": "01:00"
+                "home": "San Jose Earthquakes",
+                "away": "Houston Dynamo FC",
+                "date": "2026-11-25",
+                "time": "03:00"
             }
         ]
     },
