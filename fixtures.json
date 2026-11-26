@@ -31,102 +31,30 @@
     },
     "England - EFL Championship": {
         "teams": {
-            "Bolton Wanderers": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
-                "position": "19",
-                "record": "5W 3D 8L",
-                "last_5": "DLWLL",
-                "full_form": "DLWLL",
-                "avg_gf": 1.31,
-                "avg_ga": 1.88
-            },
-            "West Bromwich Albion": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
-                "position": "5",
-                "record": "8W 5D 3L",
-                "last_5": "DWDWD",
-                "full_form": "DWDWD",
-                "avg_gf": 1.56,
-                "avg_ga": 1.06
-            },
-            "Burnley": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
-                "position": "23",
-                "record": "1W 8D 7L",
-                "last_5": "DLDDL",
-                "full_form": "DLDDL",
-                "avg_gf": 1.5,
-                "avg_ga": 2.06
-            },
-            "Birmingham City": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
-                "position": "4",
-                "record": "8W 5D 3L",
-                "last_5": "DWWWL",
-                "full_form": "DWWWL",
-                "avg_gf": 1.75,
+            "Southampton": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
+                "position": "6",
+                "record": "9W 5D 3L",
+                "last_5": "DWLDW",
+                "full_form": "DWLDW",
+                "avg_gf": 1.88,
                 "avg_ga": 0.94
             },
-            "Watford": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
-                "position": "20",
-                "record": "4W 3D 9L",
-                "last_5": "LDWLL",
-                "full_form": "LDWLL",
-                "avg_gf": 0.81,
-                "avg_ga": 1.69
-            },
-            "Blackburn Rovers": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png",
-                "position": "13",
-                "record": "6W 4D 6L",
-                "last_5": "DWLLW",
-                "full_form": "DWLLW",
-                "avg_gf": 1.5,
-                "avg_ga": 1.56
-            },
-            "Stoke City": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
-                "position": "3",
-                "record": "10W 2D 4L",
-                "last_5": "DWWWD",
-                "full_form": "DWWWD",
-                "avg_gf": 1.56,
-                "avg_ga": 1.12
-            },
-            "Millwall": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
-                "position": "18",
-                "record": "5W 3D 8L",
-                "last_5": "LLLWL",
-                "full_form": "LLLWL",
-                "avg_gf": 1.44,
-                "avg_ga": 1.75
+            "Middlesbrough": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
+                "position": "1",
+                "record": "10W 5D 2L",
+                "last_5": "DWDLW",
+                "full_form": "DWDLW",
+                "avg_gf": 2.0,
+                "avg_ga": 1.18
             }
         },
         "fixtures": [
             {
-                "home": "Bolton Wanderers",
-                "away": "West Bromwich Albion",
-                "date": "2026-11-25",
-                "time": "19:45"
-            },
-            {
-                "home": "Burnley",
-                "away": "Birmingham City",
-                "date": "2026-11-25",
-                "time": "19:45"
-            },
-            {
-                "home": "Watford",
-                "away": "Blackburn Rovers",
-                "date": "2026-11-25",
-                "time": "19:45"
-            },
-            {
-                "home": "Stoke City",
-                "away": "Millwall",
-                "date": "2026-11-25",
+                "home": "Southampton",
+                "away": "Middlesbrough",
+                "date": "2026-11-27",
                 "time": "20:00"
             }
         ]
@@ -309,163 +237,163 @@
         "teams": {
             "Sabah FK": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
-                "position": "30",
-                "record": "1W 0D 3L",
-                "last_5": "LLWLW",
-                "full_form": "LLWLW",
+                "position": "33",
+                "record": "1W 0D 4L",
+                "last_5": "LLLWL",
+                "full_form": "LLLWL",
                 "avg_gf": 1.0,
-                "avg_ga": 2.5
+                "avg_ga": 2.8
             },
             "Barcelona": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-                "position": "8",
-                "record": "3W 0D 1L",
-                "last_5": "WWWWL",
-                "full_form": "WWWWL",
-                "avg_gf": 3.5,
-                "avg_ga": 1.5
+                "position": "4",
+                "record": "4W 0D 1L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
+                "avg_gf": 3.6,
+                "avg_ga": 1.4
             },
             "Slavia Prague": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
-                "position": "34",
-                "record": "0W 1D 3L",
-                "last_5": "LDLLL",
-                "full_form": "LDLLL",
-                "avg_gf": 1.25,
-                "avg_ga": 2.25
+                "position": "35",
+                "record": "0W 1D 4L",
+                "last_5": "LLDLL",
+                "full_form": "LLDLL",
+                "avg_gf": 1.0,
+                "avg_ga": 2.0
             },
             "Villarreal": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-                "position": "29",
-                "record": "1W 0D 3L",
-                "last_5": "LWLLW",
-                "full_form": "LWLLW",
-                "avg_gf": 2.0,
-                "avg_ga": 3.5
+                "position": "24",
+                "record": "2W 0D 3L",
+                "last_5": "WLWLL",
+                "full_form": "WLWLL",
+                "avg_gf": 1.8,
+                "avg_ga": 2.8
             },
             "Atlético Madrid": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-                "position": "26",
-                "record": "1W 1D 2L",
-                "last_5": "WLLWW",
-                "full_form": "WLLWW",
-                "avg_gf": 1.0,
-                "avg_ga": 1.25
+                "position": "18",
+                "record": "2W 1D 2L",
+                "last_5": "WWLLW",
+                "full_form": "WWLLW",
+                "avg_gf": 1.2,
+                "avg_ga": 1.0
             },
             "Viking FK": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
-                "position": "25",
-                "record": "1W 1D 2L",
-                "last_5": "DWWLW",
-                "full_form": "DWWLW",
-                "avg_gf": 2.25,
-                "avg_ga": 2.5
+                "position": "27",
+                "record": "1W 1D 3L",
+                "last_5": "LLWWL",
+                "full_form": "LLWWL",
+                "avg_gf": 1.8,
+                "avg_ga": 2.4
             },
             "Club Brugge": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
-                "position": "11",
-                "record": "3W 0D 1L",
-                "last_5": "WDWWW",
-                "full_form": "WDWWW",
-                "avg_gf": 2.75,
-                "avg_ga": 1.75
+                "position": "13",
+                "record": "3W 0D 2L",
+                "last_5": "LWDWW",
+                "full_form": "LWDWW",
+                "avg_gf": 2.2,
+                "avg_ga": 2.0
             },
             "Liverpool": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-                "position": "10",
-                "record": "3W 0D 1L",
-                "last_5": "WWLLW",
-                "full_form": "WWLLW",
-                "avg_gf": 3.5,
-                "avg_ga": 2.5
+                "position": "5",
+                "record": "4W 0D 1L",
+                "last_5": "WWWLL",
+                "full_form": "WWWLL",
+                "avg_gf": 3.4,
+                "avg_ga": 2.0
             },
             "Internazionale": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-                "position": "17",
-                "record": "2W 0D 2L",
-                "last_5": "DWWLW",
-                "full_form": "DWWLW",
+                "position": "12",
+                "record": "3W 0D 2L",
+                "last_5": "WDWWL",
+                "full_form": "WDWWL",
                 "avg_gf": 2.0,
-                "avg_ga": 1.5
+                "avg_ga": 1.2
             },
             "VfB Stuttgart": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
-                "position": "15",
-                "record": "2W 1D 1L",
-                "last_5": "DWLWW",
-                "full_form": "DWLWW",
-                "avg_gf": 1.75,
-                "avg_ga": 1.0
+                "position": "17",
+                "record": "2W 1D 2L",
+                "last_5": "LDWLW",
+                "full_form": "LDWLW",
+                "avg_gf": 1.4,
+                "avg_ga": 1.2
             },
             "Lille": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-                "position": "35",
-                "record": "0W 1D 3L",
-                "last_5": "LWDWD",
-                "full_form": "LWDWD",
-                "avg_gf": 1.0,
-                "avg_ga": 2.5
+                "position": "29",
+                "record": "1W 1D 3L",
+                "last_5": "WLWDW",
+                "full_form": "WLWDW",
+                "avg_gf": 1.2,
+                "avg_ga": 2.2
             },
             "Bayern Munich": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-                "position": "14",
-                "record": "2W 2D 0L",
-                "last_5": "DWWDW",
-                "full_form": "DWWDW",
-                "avg_gf": 3.0,
-                "avg_ga": 1.25
+                "position": "15",
+                "record": "2W 2D 1L",
+                "last_5": "LDWWD",
+                "full_form": "LDWWD",
+                "avg_gf": 2.6,
+                "avg_ga": 1.4
             },
             "Paris Saint-Germain": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
                 "position": "2",
-                "record": "4W 0D 0L",
+                "record": "4W 1D 0L",
                 "last_5": "DWWWW",
                 "full_form": "DWWWW",
-                "avg_gf": 5.0,
-                "avg_ga": 1.25
+                "avg_gf": 4.4,
+                "avg_ga": 1.4
             },
             "AS Roma": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-                "position": "23",
-                "record": "1W 1D 2L",
-                "last_5": "WWLWW",
-                "full_form": "WWLWW",
-                "avg_gf": 2.5,
+                "position": "25",
+                "record": "1W 2D 2L",
+                "last_5": "DWWLW",
+                "full_form": "DWWLW",
+                "avg_gf": 2.4,
                 "avg_ga": 2.0
             },
             "Shakhtar Donetsk": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
-                "position": "24",
-                "record": "1W 1D 2L",
-                "last_5": "LLWDL",
-                "full_form": "LLWDL",
-                "avg_gf": 1.0,
+                "position": "26",
+                "record": "1W 1D 3L",
+                "last_5": "LLLWD",
+                "full_form": "LLLWD",
+                "avg_gf": 0.8,
                 "avg_ga": 1.0
             },
             "Fenerbahce": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-                "position": "22",
-                "record": "1W 2D 1L",
-                "last_5": "DWWLL",
-                "full_form": "DWWLL",
-                "avg_gf": 1.5,
-                "avg_ga": 2.75
+                "position": "16",
+                "record": "2W 2D 1L",
+                "last_5": "WDWWL",
+                "full_form": "WDWWL",
+                "avg_gf": 1.4,
+                "avg_ga": 2.2
             },
             "Sporting CP": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
-                "position": "12",
-                "record": "3W 0D 1L",
-                "last_5": "WWWWL",
-                "full_form": "WWWWL",
+                "position": "9",
+                "record": "3W 1D 1L",
+                "last_5": "DWWWW",
+                "full_form": "DWWWW",
                 "avg_gf": 2.0,
-                "avg_ga": 1.0
+                "avg_ga": 1.2
             },
             "Manchester United": {
                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
                 "position": "19",
-                "record": "2W 0D 2L",
-                "last_5": "LDWLL",
-                "full_form": "LDWLL",
+                "record": "2W 1D 2L",
+                "last_5": "DLDWL",
+                "full_form": "DLDWL",
                 "avg_gf": 2.0,
                 "avg_ga": 2.0
             }
@@ -1675,61 +1603,85 @@
     },
     "Brazil - Série A": {
         "teams": {
-            "Atlético-MG": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-                "position": "7",
-                "record": "14W 9D 12L",
-                "last_5": "LDDLL",
-                "full_form": "LDDLL",
-                "avg_gf": 1.26,
+            "São Paulo": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+                "position": "11",
+                "record": "12W 9D 15L",
+                "last_5": "DLDLD",
+                "full_form": "DLDLD",
+                "avg_gf": 1.11,
                 "avg_ga": 1.14
             },
-            "Corinthians": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-                "position": "17",
-                "record": "10W 10D 15L",
-                "last_5": "WDWLD",
-                "full_form": "WDWLD",
+            "Remo": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+                "position": "19",
+                "record": "7W 11D 18L",
+                "last_5": "LWLWL",
+                "full_form": "LWLWL",
                 "avg_gf": 1.14,
-                "avg_ga": 1.2
+                "avg_ga": 1.69
             }
         },
         "fixtures": [
             {
-                "home": "Atlético-MG",
-                "away": "Corinthians",
-                "date": "2026-11-25",
+                "home": "São Paulo",
+                "away": "Remo",
+                "date": "2026-11-26",
                 "time": "23:00"
             }
         ]
     },
     "Argentina - Liga Profesional": {
         "teams": {
-            "Boca Juniors": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-                "position": "2",
-                "record": "9W 6D 1L",
-                "last_5": "WWWWW",
-                "full_form": "WWWWW",
-                "avg_gf": 1.5,
-                "avg_ga": 0.88
+            "Vélez Sarsfield": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+                "position": "3",
+                "record": "7W 7D 2L",
+                "last_5": "WLDWW",
+                "full_form": "WLDWW",
+                "avg_gf": 1.56,
+                "avg_ga": 1.06
             },
-            "Independiente Rivadavia": {
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+            "Independiente": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
                 "position": "7",
                 "record": "6W 5D 5L",
-                "last_5": "LDWLD",
-                "full_form": "LDWLD",
+                "last_5": "WWDLD",
+                "full_form": "WWDLD",
+                "avg_gf": 0.94,
+                "avg_ga": 1.0
+            },
+            "Instituto (Córdoba)": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
+                "position": "1",
+                "record": "10W 4D 2L",
+                "last_5": "WDDWW",
+                "full_form": "WDDWW",
+                "avg_gf": 1.62,
+                "avg_ga": 0.94
+            },
+            "River Plate": {
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
+                "position": "4",
+                "record": "8W 2D 6L",
+                "last_5": "WWLWW",
+                "full_form": "WWLWW",
                 "avg_gf": 1.31,
-                "avg_ga": 1.5
+                "avg_ga": 0.88
             }
         },
         "fixtures": [
             {
-                "home": "Boca Juniors",
-                "away": "Independiente Rivadavia",
-                "date": "2026-11-26",
-                "time": "00:00"
+                "home": "Vélez Sarsfield",
+                "away": "Independiente",
+                "date": "2026-11-28",
+                "time": "23:00"
+            },
+            {
+                "home": "Instituto (Córdoba)",
+                "away": "River Plate",
+                "date": "2026-11-29",
+                "time": "01:00"
             }
         ]
     },
@@ -1789,439 +1741,31 @@
     },
     "International - Friendly / Nations": {
         "teams": {
-            "Tahiti": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tah.png",
+            "England": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
                 "position": "-",
-                "record": "2W 1D 2L",
-                "last_5": "DWLWL",
-                "full_form": "DWLWL",
+                "record": "5W 0D 0L",
+                "last_5": "WWWWW",
+                "full_form": "WWWWW",
                 "avg_gf": 1.4,
                 "avg_ga": 1.25
             },
-            "Cook Islands": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cok.png",
+            "Ukraine": {
+                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ukr.png",
                 "position": "-",
                 "record": "1W 1D 3L",
-                "last_5": "DLWLL",
-                "full_form": "DLWLL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Malaysia": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mas.png",
-                "position": "-",
-                "record": "2W 0D 3L",
-                "last_5": "WLLLW",
-                "full_form": "WLLLW",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Yemen": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/yem.png",
-                "position": "-",
-                "record": "1W 0D 4L",
-                "last_5": "LLWLL",
-                "full_form": "LLWLL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Singapore": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sin.png",
-                "position": "-",
-                "record": "1W 1D 3L",
-                "last_5": "LLWLD",
-                "full_form": "LLWLD",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Brazil": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-                "position": "-",
-                "record": "3W 1D 1L",
-                "last_5": "WLWWD",
-                "full_form": "WLWWD",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "China": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/chn.png",
-                "position": "-",
-                "record": "1W 1D 3L",
-                "last_5": "DWLLL",
-                "full_form": "DWLLL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Bahrain": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bhr.png",
-                "position": "-",
-                "record": "1W 1D 3L",
-                "last_5": "DWLLL",
-                "full_form": "DWLLL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Kyrgyz Republic": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kgz.png",
-                "position": "-",
-                "record": "4W 1D 0L",
-                "last_5": "WWWWD",
-                "full_form": "WWWWD",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Vietnam": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/vie.png",
-                "position": "-",
-                "record": "3W 1D 1L",
-                "last_5": "LWDWW",
-                "full_form": "LWDWW",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Lebanon": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/lib.png",
-                "position": "-",
-                "record": "1W 2D 2L",
-                "last_5": "DDLWL",
-                "full_form": "DDLWL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Palestine": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pal.png",
-                "position": "-",
-                "record": "2W 2D 1L",
-                "last_5": "DLWWD",
-                "full_form": "DLWWD",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Japan": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-                "position": "-",
-                "record": "3W 0D 2L",
-                "last_5": "LWWWL",
-                "full_form": "LWWWL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Paraguay": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-                "position": "-",
-                "record": "4W 0D 1L",
-                "last_5": "WWWWL",
-                "full_form": "WWWWL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Qatar": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
-                "position": "-",
-                "record": "1W 1D 3L",
-                "last_5": "LLLDW",
-                "full_form": "LLLDW",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "South Korea": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
-                "position": "-",
-                "record": "2W 1D 2L",
-                "last_5": "WLWDL",
-                "full_form": "WLWDL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "United Arab Emirates": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uae.png",
-                "position": "-",
-                "record": "2W 2D 1L",
-                "last_5": "DWLWD",
-                "full_form": "DWLWD",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Syria": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/syr.png",
-                "position": "-",
-                "record": "0W 2D 3L",
-                "last_5": "DLLDL",
-                "full_form": "DLLDL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Saudi Arabia": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
-                "position": "-",
-                "record": "4W 0D 1L",
-                "last_5": "LWWWW",
-                "full_form": "LWWWW",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Uzbekistan": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
-                "position": "-",
-                "record": "3W 0D 2L",
-                "last_5": "WLLWW",
-                "full_form": "WLLWW",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Jordan": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
-                "position": "-",
-                "record": "1W 2D 2L",
-                "last_5": "WDDLL",
-                "full_form": "WDDLL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Australia": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
-                "position": "-",
-                "record": "1W 1D 3L",
-                "last_5": "LWLDL",
-                "full_form": "LWLDL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Russia": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rus.png",
-                "position": "-",
-                "record": "4W 1D 0L",
-                "last_5": "WWDWW",
-                "full_form": "WWDWW",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Venezuela": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ven.png",
-                "position": "-",
-                "record": "0W 2D 3L",
-                "last_5": "LLDDL",
-                "full_form": "LLDDL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Iraq": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
-                "position": "-",
-                "record": "1W 3D 1L",
-                "last_5": "DDLWD",
-                "full_form": "DDLWD",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Iran": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
-                "position": "-",
-                "record": "1W 2D 2L",
-                "last_5": "DWLLD",
-                "full_form": "DWLLD",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Kuwait": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kuw.png",
-                "position": "-",
-                "record": "1W 1D 3L",
-                "last_5": "DWLLL",
-                "full_form": "DWLLL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Honduras": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hon.png",
-                "position": "-",
-                "record": "1W 2D 2L",
-                "last_5": "DLDLW",
-                "full_form": "DLDLW",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Argentina": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-                "position": "-",
-                "record": "4W 0D 1L",
-                "last_5": "WLWWW",
-                "full_form": "WLWWW",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Costa Rica": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/crc.png",
-                "position": "-",
-                "record": "2W 0D 3L",
-                "last_5": "LLWWL",
-                "full_form": "LLWWL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Chile": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/chi.png",
-                "position": "-",
-                "record": "1W 1D 3L",
-                "last_5": "DLWLL",
-                "full_form": "DLWLL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Colombia": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-                "position": "-",
-                "record": "2W 2D 1L",
-                "last_5": "DWWLD",
-                "full_form": "DWWLD",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Ecuador": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
-                "position": "-",
-                "record": "3W 0D 2L",
-                "last_5": "WWLLW",
-                "full_form": "WWLLW",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Bolivia": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bol.png",
-                "position": "-",
-                "record": "0W 0D 5L",
-                "last_5": "LLLLL",
-                "full_form": "LLLLL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Uruguay": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
-                "position": "-",
-                "record": "4W 0D 1L",
-                "last_5": "WWWWL",
-                "full_form": "WWWWL",
-                "avg_gf": 1.4,
-                "avg_ga": 1.25
-            },
-            "Dominican Republic": {
-                "logo": "https://a.espncdn.com/i/teamlogos/countries/500/dom.png",
-                "position": "-",
-                "record": "3W 0D 2L",
-                "last_5": "LWLWW",
-                "full_form": "LWLWW",
+                "last_5": "WLLLD",
+                "full_form": "WLLLD",
                 "avg_gf": 1.4,
                 "avg_ga": 1.25
             }
         },
         "fixtures": [
             {
-                "home": "Tahiti",
-                "away": "Cook Islands",
-                "date": "2026-11-17",
-                "time": "05:30"
-            },
-            {
-                "home": "Malaysia",
-                "away": "Yemen",
-                "date": "2026-11-17",
-                "time": "06:00"
-            },
-            {
-                "home": "Singapore",
-                "away": "Brazil",
-                "date": "2026-11-17",
-                "time": "10:00"
-            },
-            {
-                "home": "China",
-                "away": "Bahrain",
-                "date": "2026-11-17",
-                "time": "12:00"
-            },
-            {
-                "home": "Kyrgyz Republic",
-                "away": "Vietnam",
-                "date": "2026-11-17",
-                "time": "12:00"
-            },
-            {
-                "home": "Lebanon",
-                "away": "Palestine",
-                "date": "2026-11-17",
-                "time": "13:00"
-            },
-            {
-                "home": "Japan",
-                "away": "Paraguay",
-                "date": "2026-11-17",
-                "time": "13:10"
-            },
-            {
-                "home": "Qatar",
-                "away": "South Korea",
-                "date": "2026-11-17",
-                "time": "14:00"
-            },
-            {
-                "home": "United Arab Emirates",
-                "away": "Syria",
-                "date": "2026-11-17",
-                "time": "14:10"
-            },
-            {
-                "home": "Saudi Arabia",
-                "away": "Uzbekistan",
-                "date": "2026-11-17",
-                "time": "15:30"
-            },
-            {
-                "home": "Jordan",
-                "away": "Australia",
-                "date": "2026-11-17",
-                "time": "16:00"
-            },
-            {
-                "home": "Russia",
-                "away": "Venezuela",
-                "date": "2026-11-17",
-                "time": "16:00"
-            },
-            {
-                "home": "Iraq",
-                "away": "Iran",
-                "date": "2026-11-17",
-                "time": "16:15"
-            },
-            {
-                "home": "Kuwait",
-                "away": "Honduras",
-                "date": "2026-11-17",
-                "time": "16:30"
-            },
-            {
-                "home": "Argentina",
-                "away": "Costa Rica",
-                "date": "2026-11-17",
-                "time": "23:00"
-            },
-            {
-                "home": "Chile",
-                "away": "Colombia",
-                "date": "2026-11-17",
-                "time": "23:00"
-            },
-            {
-                "home": "Ecuador",
-                "away": "Bolivia",
-                "date": "2026-11-17",
-                "time": "23:30"
-            },
-            {
-                "home": "Uruguay",
-                "away": "Dominican Republic",
-                "date": "2026-11-17",
-                "time": "23:30"
+                "home": "England",
+                "away": "Ukraine",
+                "date": "2026-12-05",
+                "time": "17:30"
             }
         ]
     }
